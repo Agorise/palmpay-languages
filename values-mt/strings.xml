@@ -158,7 +158,6 @@
     <string name="dismiss">Tiċħad</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Pagament ikkonfermat!</string>
     <string name="button__view_transactions">Ara Transazzjonijiet</string>
     <string name="template__received">Riċevut: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Mhux kapaċi jiġġenera pdf. Jekk jogħġbok erġa \'pprova. Żball: %1$s</string>
     <string name="csv_generated_msg_s">CSV iġġenerat u ffrankat: %1$s</string>
     <string name="csv_generated_msg_error_s">Ma tistax tiġġenera csv. Jekk jogħġbok erġa \'pprova. Żball: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">Irċevuta-e mhijiex disponibbli għal transazzjonijiet mhux imwettqa</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">Irċevuta-e mhijiex disponibbli għal transazzjonijiet ħerġin</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Għażliet tal-Filtru</string>
     <string name="all">Kollha</string>
     <string name="sent">Mibgħut</string>
     <string name="received">Irċevuta</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">In-numru PIN kurrenti</string>
     <string name="please_enter_old_pin">Jekk jogħġbok daħħal in-numru PIN preċedenti</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Żball fil-konnessjoni node, nibdew mill-ġdid</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Żball min-node sħiħ. Msg: %1$s</string>
     <string name="error_payment_amount_title">Diskrepanza fl-ammont riċevut</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Sirna ħlas li deħlin, imma ma setgħet tinstab l-ebda talba</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s għal issa ġie diżattivat minħabba problemi tan-netwerk jew tal-likwidità</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">ਬਰਖਾਸਤ ਕਰੋ</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">ਭੁਗਤਾਨ ਦੀ ਪੁਸ਼ਟੀ ਕੀਤੀ ਗਈ!</string>
     <string name="button__view_transactions">ਟ੍ਰਾਂਜੈਕਸ਼ਨਾਂ ਦੇਖੋ</string>
     <string name="template__received">ਪ੍ਰਾਪਤ ਕੀਤਾ: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">PDF ਬਣਾਉਣ ਵਿੱਚ ਅਸਮਰੱਥ. ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ. ਗਲਤੀ: %1$s</string>
     <string name="csv_generated_msg_s">CSV ਤਿਆਰ ਕੀਤਾ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕੀਤਾ: %1$s</string>
     <string name="csv_generated_msg_error_s">Csv ਬਣਾਉਣ ਵਿੱਚ ਅਸਫਲ ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ. ਗਲਤੀ: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">ਅਧੂਰੀ ਟ੍ਰਾਂਜੈਕਸ਼ਨਾਂ ਲਈ eReceipt ਉਪਲਬਧ ਨਹੀਂ</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">ਬਾਹਰੀ ਟ੍ਰਾਂਜੈਕਸ਼ਨਾਂ ਲਈ ਉਪਲਬਧ ਨਹੀਂ</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">ਫਿਲਟਰ ਵਿਕਲਪ</string>
     <string name="all">ਸਭ</string>
     <string name="sent">ਭੇਜੇ ਗਏ</string>
     <string name="received">ਪ੍ਰਾਪਤ ਕੀਤਾ</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">ਮੌਜੂਦਾ PIN ਨੰਬਰ</string>
     <string name="please_enter_old_pin">ਕਿਰਪਾ ਕਰਕੇ ਪੁਰਾਣੇ PIN ਨੰਬਰ ਦਰਜ ਕਰੋ</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">ਨੋਡ ਕਨੈਕਸ਼ਨ ਗਲਤੀ, ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਿਹਾ ਹੈ</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">ਪੂਰੇ ਨੋਡ ਤੋਂ ਗਲਤੀ ਸੰਦੇਸ਼: %1$s</string>
     <string name="error_payment_amount_title">ਪ੍ਰਾਪਤ ਹੋਈ ਰਕਮ ਦਾ ਅੰਤਰ</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">ਸਾਨੂੰ ਇਨਕਮਿੰਗ ਭੁਗਤਾਨ ਮਿਲਿਆ ਹੈ, ਪਰ ਕੋਈ ਬੇਨਤੀ ਨਹੀਂ ਮਿਲੀ</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">ਨੈਟਵਰਕ ਜਾਂ ਤਰਲਤਾ ਸੰਬੰਧੀ ਮੁੱਦਿਆਂ ਕਾਰਨ ਹੁਣ %1$s ਨੂੰ ਅਯੋਗ ਕੀਤਾ ਗਿਆ ਹੈ</string>
 
 </resources>

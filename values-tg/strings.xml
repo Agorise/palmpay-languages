@@ -158,7 +158,6 @@
     <string name="dismiss">Бойгонӣ</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Пардохт тасдиқ шуд!</string>
     <string name="button__view_transactions">Намоиши амалиётҳо</string>
     <string name="template__received">Гирифтани: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Нашр шуд Илтимос, такрор кунед. Хато: %1$s</string>
     <string name="csv_generated_msg_s">CSV тавлид ва захира кард: %1$s</string>
     <string name="csv_generated_msg_error_s">Csv-ро тавлид намекунад. Илтимос, такрор кунед. Хато: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt барои амалиётҳои ғайримуқаррарӣ дастрас нест</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt барои амалиётҳои баромад дастрас нест</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Имконоти филтр</string>
     <string name="all">Ҳама</string>
     <string name="sent">Фиристода шудааст</string>
     <string name="received">Гирифтани</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Рақами PIN ҷорӣ</string>
     <string name="please_enter_old_pin">Лутфан рақами PIN-ро ворид кунед</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Хатогии пайвастшавӣ ба нутқ, ҷустуҷӯ</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Хатоги аз руи пурра. Msg: %1$s</string>
     <string name="error_payment_amount_title">Фарқияти ҳаҷми маблағи гирифташуда</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Мо пардохти даромад гирифтаем, аммо ягон дархост пайдо намешавад</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s ҳоло аз сабаби мушкилоти шабака ё пардохтпазирӣ маҳдуд шудааст</string>
 
 </resources>

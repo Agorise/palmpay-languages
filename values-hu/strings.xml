@@ -158,7 +158,6 @@
     <string name="dismiss">elvetése</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Fizetés visszaigazolva!</string>
     <string name="button__view_transactions">Tranzakciók megtekintése</string>
     <string name="template__received">Fogadott: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Nem lehet PDF-t készíteni. Próbáld újra. Hiba: %1$s</string>
     <string name="csv_generated_msg_s">CSV generált és mentett: %1$s</string>
     <string name="csv_generated_msg_error_s">Nem lehet létrehozni a csv-t. Próbáld újra. Hiba: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">Az eReceipt nem érhető el nem teljesített tranzakciók esetén</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">Az eReceipt nem érhető el a kimenő tranzakciók esetében</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Szűrőbeállítások</string>
     <string name="all">Minden</string>
     <string name="sent">Küldött</string>
     <string name="received">Fogadott</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Jelenlegi PIN kód</string>
     <string name="please_enter_old_pin">Kérjük, adja meg a régi PIN kódot</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Csomópont-csatlakozási hiba, újrapróbálkozás</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Hiba a teljes csomópontból. Üzenet: %1$s</string>
     <string name="error_payment_amount_title">A kapott összeg eltérése</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Bejövő befizetést kaptunk, de kérést nem találtunk</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">A %1$s már letiltott a hálózat vagy a likviditás miatt</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">Cuir stad air</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Pàigheadh ​​air a dhaingneachadh!</string>
     <string name="button__view_transactions">Seall Gnìomhan</string>
     <string name="template__received">Fhuair sinn: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Cha ghabh seo a dhèanamh. Cuir a-rithist air ais. Mearachd: %1$s</string>
     <string name="csv_generated_msg_s">CSV air a ghineadh agus air a shàbhaladh: %1$s</string>
     <string name="csv_generated_msg_error_s">Cha ghabh csv a ghineadh. Cuir a-rithist air ais. Mearachd: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">Cha bhi eReceip ri fhaighinn airson gnothaichean gun choileanadh</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">Cha bhi eRecet ri fhaighinn airson gnothaichean a-mach</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Roghainnean criathar</string>
     <string name="all">Uile</string>
     <string name="sent">Sent</string>
     <string name="received">Fuasgladh Mapa (Fosgail)</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Àireamh PIN làithreach</string>
     <string name="please_enter_old_pin">Cuir a-steach seann àireamh PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Mearachd ceangail nòdan, a \'cur air ais</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Mearachd bhon làn-nòta. Msg: %1$s</string>
     <string name="error_payment_amount_title">Fhuair sinn uiread de dh \'fhacal</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Fhuair sinn pàigheadh ​​a thàinig a-steach, ach cha b \'urrainn dhuinn iarrtas fhaighinn</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">Tha %1$s air a bhith air a chuir à comas airson a-nis air sgàth cùisean lìonraidh no tàlaint</string>
 
 </resources>

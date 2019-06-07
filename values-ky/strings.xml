@@ -158,7 +158,6 @@
     <string name="dismiss">бошотуу</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Төлөм ырасталды!</string>
     <string name="button__view_transactions">ЖМКнын бүтүмдөр</string>
     <string name="template__received">Кабыл: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">PDF түзүү мүмкүн болбой жатат. Сураныч, кайра. Ката: %1$s</string>
     <string name="csv_generated_msg_s">CSV түзүлгөн жана сакталган: %1$s</string>
     <string name="csv_generated_msg_error_s">CSV түзүү мүмкүн болбой жатат. Сураныч, кайра. Ката: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt аткарылбаган бүтүмдөр үчүн жеткиликтүү эмес</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt чыккан бүтүмдөр үчүн жеткиликтүү эмес</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filter Options</string>
     <string name="all">бардык</string>
     <string name="sent">жөнөтүлдү</string>
     <string name="received">кабыл алынган</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Учурдагы PIN саны</string>
     <string name="please_enter_old_pin">Эски PIN санын</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Node туташуу катасы, дагы бир жолу аракет жасалууда</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">толук түйүнүнөн ката. Кабар: %1$s</string>
     <string name="error_payment_amount_title">Кабыл алынган сумма айырмачылыктар</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Биз Кирүүчү төлөп туруп, бирок, эч кандай өтүнүч табылышы мүмкүн</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s байланыштуу тармак же өтүмдүүлүк маселеси азыр өчүрүлгөн</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">Descartar</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">¡Pago confirmado!</string>
     <string name="button__view_transactions">Ver transacciones</string>
     <string name="template__received">Recibido: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">No se puede generar pdf. Por favor, intenta de nuevo. Error: %1$s</string>
     <string name="csv_generated_msg_s">CSV generado y guardado: %1$s</string>
     <string name="csv_generated_msg_error_s">No se puede generar csv. Por favor, intenta de nuevo. Error: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt no disponible para transacciones no concretadas</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt no disponible para transaccines salientes</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Opciones de Filtrado</string>
     <string name="all">Todas</string>
     <string name="sent">Enviadas</string>
     <string name="received">Recibidas</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">PIN actual</string>
     <string name="please_enter_old_pin">Por favor, introduce el PIN anterior</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Error de conexión con el nodo, reintentando</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Error del nodo. Mensaje: %1$s</string>
     <string name="error_payment_amount_title">Discrepancia en el monto recibido</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Recibimos un pago entrante, pero no se pudo encontrar la solicitud correspondiente</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s ha sido deshabilitado por ahora debido a problemas de liquidez o de la red</string>
 
 </resources>

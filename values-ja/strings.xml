@@ -158,7 +158,6 @@
     <string name="dismiss">却下する</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">お支払いが確定しました！</string>
     <string name="button__view_transactions">トランザクションを見る</string>
     <string name="template__received">受信した：%1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">pdfを生成できません。再試行してください。エラー：%1$s</string>
     <string name="csv_generated_msg_s">生成され保存されたCSV：%1$s</string>
     <string name="csv_generated_msg_error_s">csvを生成できません。再試行してください。エラー：%1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">未確認取引にはe領収書は利用できません</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">e領収書は出金取引にはご利用いただけません</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">フィルタオプション</string>
     <string name="all">すべて</string>
     <string name="sent">送信済み</string>
     <string name="received">受け取った</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">現在のPIN番号</string>
     <string name="please_enter_old_pin">古いPIN番号を入力してください</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">ノード接続エラー、再試行</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">フルノードからのエラーです。メッセージ：%1$s</string>
     <string name="error_payment_amount_title">受領額の不一致</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">入金がありましたが、リクエストは見つかりませんでした</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">ネットワークまたは流動性の問題により、__ 1s__は現在無効になっています</string>
 
 </resources>

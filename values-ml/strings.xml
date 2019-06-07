@@ -158,7 +158,6 @@
     <string name="dismiss">നിരസിക്കുക</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">പേയ്മെന്റ് സ്ഥിരീകരിച്ചു!</string>
     <string name="button__view_transactions">ഇടപാടുകൾ കാണുക</string>
     <string name="template__received">സ്വീകരിച്ചു: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">പിഡിഎഫ് സൃഷ്ടിക്കാൻ കഴിയുന്നില്ല. വീണ്ടും ശ്രമിക്കുക. പിശക്: %1$s</string>
     <string name="csv_generated_msg_s">CSV സൃഷ്ടിക്കുകയും സംരക്ഷിക്കുകയും ചെയ്തു: %1$s</string>
     <string name="csv_generated_msg_error_s">Csv ഉണ്ടാക്കാൻ കഴിയുന്നില്ല. വീണ്ടും ശ്രമിക്കുക. പിശക്: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">സമഗ്രമായ ഇടപാടുകൾക്ക് eReceipt ലഭ്യമല്ല</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">ഔട്ട്ഗോയിംഗ് ഇടപാടുകൾക്കായി eReceipt ലഭ്യമല്ല</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">ഫിൽട്ടർ ഓപ്ഷനുകൾ</string>
     <string name="all">എല്ലാം</string>
     <string name="sent">അയച്ചു</string>
     <string name="received">ലഭിച്ചു</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">നിലവിലെ PIN നമ്പർ</string>
     <string name="please_enter_old_pin">പഴയ PIN നമ്പർ നൽകുക</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">നോഡ് കണക്ഷൻ പിശക്, വീണ്ടും ശ്രമിക്കുന്നു</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">പൂർണ്ണ നോഡിൽ നിന്നുള്ള പിശക്. Msg: %1$s</string>
     <string name="error_payment_amount_title">തിരിച്ചടവ് തുക ലഭിച്ചു</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">ഞങ്ങൾക്ക് ഒരു ഇൻകമിംഗ് പേയ്മെന്റ് ലഭിച്ചു, പക്ഷേ അഭ്യർത്ഥന കണ്ടെത്താനായില്ല</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">നെറ്റ്വർക്ക് അല്ലെങ്കിൽ ലിക്വിഡിറ്റി പ്രശ്നങ്ങൾ കാരണം ഇപ്പോൾ %1$s അപ്രാപ്തമാക്കി</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">Diswyddo</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Taliad wedi\'i gadarnhau!</string>
     <string name="button__view_transactions">Gweld Trafodion</string>
     <string name="template__received">Derbyniwyd: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Methu cynhyrchu pdf. Ailadroddwch. Gwall: %1$s</string>
     <string name="csv_generated_msg_s">CSV wedi\'i gynhyrchu a\'i arbed: %1$s</string>
     <string name="csv_generated_msg_error_s">Methu cynhyrchu csv. Ailadroddwch. Gwall: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">Nid yw e-dderbyn ar gael ar gyfer trafodion heb eu cyflawni</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">Nid yw e-dderbyn ar gael ar gyfer trafodion sy\'n mynd allan</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Opsiynau Hidlo</string>
     <string name="all">I gyd</string>
     <string name="sent">Anfonwyd</string>
     <string name="received">Derbyniwyd</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Rhif PIN cyfredol</string>
     <string name="please_enter_old_pin">Nodwch hen rif PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Gwall cysylltiad nodau, ailddechrau</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Gwall o\'r nod llawn. Msg: %1$s</string>
     <string name="error_payment_amount_title">Derbyn anghysondeb y swm</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Cawsom daliad sy\'n dod i mewn, ond ni ellid dod o hyd i unrhyw gais</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">Mae %1$s wedi bod yn anabl erbyn hyn oherwydd problemau rhwydwaith neu hylifedd</string>
 
 </resources>

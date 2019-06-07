@@ -158,7 +158,6 @@
     <string name="dismiss">Vabaks laskma</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Makse kinnitatud!</string>
     <string name="button__view_transactions">Vaadake tehinguid</string>
     <string name="template__received">Saadud: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">PDF-faili loomine ebaõnnestus Palun proovige uuesti. Viga: %1$s</string>
     <string name="csv_generated_msg_s">CSV loodud ja salvestatud: %1$s</string>
     <string name="csv_generated_msg_error_s">Ei saa luua csv-d. Palun proovige uuesti. Viga: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReklaam pole saadaval täitmata tehingute puhul</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eRecipt ei saa väljuvate tehingute jaoks</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filtri valikud</string>
     <string name="all">Kõik</string>
     <string name="sent">Saadeti</string>
     <string name="received">Vastu võetud</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Praegune PIN-kood</string>
     <string name="please_enter_old_pin">Palun sisesta vana PIN-kood</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Node\'i viga, proovige uuesti</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Viga täielikust sõlmest. Sõnum: %1$s</string>
     <string name="error_payment_amount_title">Saadud summa lahknevus</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Saime sissetuleva makse, kuid ükski taotlus ei leitud</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s on nüüd võrgu- või likviidsusprobleemide tõttu keelatud</string>
 
 </resources>

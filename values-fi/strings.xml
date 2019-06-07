@@ -158,7 +158,6 @@
     <string name="dismiss">erottaa</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Maksu vahvistettu!</string>
     <string name="button__view_transactions">Näytä tapahtumat</string>
     <string name="template__received">Vastaanotettu: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">PDF-tiedostoa ei voitu luoda. Yritä uudelleen. Virhe: %1$s</string>
     <string name="csv_generated_msg_s">CSV tuotettiin ja tallennettiin: %1$s</string>
     <string name="csv_generated_msg_error_s">CSV-tiedostoa ei voitu luoda. Yritä uudelleen. Virhe: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt ei ole käytettävissä täyttämättä jääneille liiketoimille</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt ei ole käytettävissä lähteville liiketoimille</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Suodatusasetukset</string>
     <string name="all">Kaikki</string>
     <string name="sent">Lähetetyt</string>
     <string name="received">Otettu vastaan</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Nykyinen PIN-koodi</string>
     <string name="please_enter_old_pin">Anna vanha PIN-tunnus</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Solmun yhteysvirhe, yritetään uudelleen</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Virhe täydeltä solmulta. Viesti: %1$s</string>
     <string name="error_payment_amount_title">Vastaanotettu summaero</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Saimme saapuvan maksun, mutta pyyntöä ei löytynyt</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s on poistettu käytöstä jo verkon tai likviditeetin vuoksi</string>
 
 </resources>

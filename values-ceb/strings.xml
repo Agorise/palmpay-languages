@@ -158,7 +158,6 @@
     <string name="dismiss">Wagtangon</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Gipamatud ang pagbayad</string>
     <string name="button__view_transactions">Tan-awa ang mga Transaksyon</string>
     <string name="template__received">Nadawat: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Dili makahimo sa pagmugna pdf. Palihug usba. Sayop: %1$s</string>
     <string name="csv_generated_msg_s">Ang CSV namugna ug naluwas: %1$s</string>
     <string name="csv_generated_msg_error_s">Dili makagama og csv. Palihug usba. Sayop: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">Ang eReceipt dili mabatonan alang sa mga wala matuman nga mga transaksyon</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">Ang eReceipt dili mabatonan alang sa outgoing transactions</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Salain ang mga Opsyon</string>
     <string name="all">Tanan</string>
     <string name="sent">Gipadala</string>
     <string name="received">Gidawat</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Numero sa PIN karon</string>
     <string name="please_enter_old_pin">Palihug pagsulod sa daan nga PIN number</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Node nga koneksyon nga kasaypanan, pagpa-usbaw</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Sayop gikan sa bug-os nga node. Msg: %1$s</string>
     <string name="error_payment_amount_title">Nadawat ang kantidad nga kalainan</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Nakakuha kami og umaabot nga pagbayad, apan walay hangyo nga makit-an</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">Ang %1$s gipugngan karon tungod sa mga problema sa network o liquidity</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">解雇</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">付款确认成功！</string>
     <string name="button__view_transactions">查看交易</string>
     <string name="template__received">收到：%1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">无法生成pdf。请重试。错误：%1$s</string>
     <string name="csv_generated_msg_s">生成并保存CSV：%1$s</string>
     <string name="csv_generated_msg_error_s">无法生成csv。请重试。错误：%1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt不适用于未履行的交易</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt不适用于传出事务</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">过滤选项</string>
     <string name="all">所有</string>
     <string name="sent">发送</string>
     <string name="received">收到</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">当前的PIN码</string>
     <string name="please_enter_old_pin">请输入旧的PIN码</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">节点连接错误，正在重试</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">完整节点出错。消息：%1$s</string>
     <string name="error_payment_amount_title">收到的金额差异</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">我们收到了付款，但没有找到任何请求</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">由于网络或流动性问题，%1$s现已暂停</string>
 
 </resources>

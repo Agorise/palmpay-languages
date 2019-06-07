@@ -158,7 +158,6 @@
     <string name="dismiss">shkarkoj</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Pagesa u konfirmua!</string>
     <string name="button__view_transactions">Shiko Transaksionet</string>
     <string name="template__received">Pranuar: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Nuk mund të gjeneroj pdf. Ju lutem provoni përsëri. Gabim: %1$s</string>
     <string name="csv_generated_msg_s">CSV u krijua dhe ruhej: %1$s</string>
     <string name="csv_generated_msg_error_s">Nuk mund të gjenerojë csv. Ju lutem provoni përsëri. Gabim: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt nuk është i disponueshëm për transaksione të paplotësuara</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt nuk është i disponueshëm për transaksionet që largohen</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Opsionet e filtrit</string>
     <string name="all">të gjithë</string>
     <string name="sent">Sent</string>
     <string name="received">marrë</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Numri PIN aktual</string>
     <string name="please_enter_old_pin">Fut numrin e vjetër PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Gabim në lidhje me nyjen, duke u përpjekur përsëri</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Gabim nga nyja e plotë. Msg: %1$s</string>
     <string name="error_payment_amount_title">Mospërputhja e shumës së marrë</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Ne morëm një pagesë hyrëse, por asnjë kërkesë nuk mund të gjendet</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s është çaktivizuar për momentin për shkak të rrjetit ose çështjeve të likuiditetit</string>
 
 </resources>

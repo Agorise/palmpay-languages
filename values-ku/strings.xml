@@ -158,7 +158,6 @@
     <string name="dismiss">Berdan</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Tezmînatê pejirandin!</string>
     <string name="button__view_transactions">Veguhêrîn</string>
     <string name="template__received">Received: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Ne pdf hilberîne. Ji kerema xwe vegere. Çewtiya: %1$s</string>
     <string name="csv_generated_msg_s">CSV çêkirin û rizgar kirin: %1$s</string>
     <string name="csv_generated_msg_error_s">Ne ku csv hilberîne. Ji kerema xwe vegere. Çewtiya: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt ji bo danûstandinên neheqkirî ne</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt ji bo veguhestinên derve</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Hilbijêre Hilbijêre</string>
     <string name="all">Gişt</string>
     <string name="sent">Şandin</string>
     <string name="received">Wergirtiye</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Hejmarek PIN</string>
     <string name="please_enter_old_pin">Ji kerema xwe hejmara navnîşên PIN-ê bişînin</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Çewtiyek girêdana Node, retrying</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Çewtiya ji tevahî node. Msg: %1$s</string>
     <string name="error_payment_amount_title">Cudatiya nirxandinê</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Em heqê paşnavê gihîştin, lê daxwazek nayê dîtin</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s ji bo ku ji hêla torê an pirsgirêkên maqûlbûnê ve hate qedexekirin</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">Bỏ qua</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Đã xác nhận thanh toán!</string>
     <string name="button__view_transactions">Xem giao dịch</string>
     <string name="template__received">Đã nhận: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Không thể tạo pdf. Làm ơn hãy thử lại. Lỗi: %1$s</string>
     <string name="csv_generated_msg_s">CSV được tạo và lưu: %1$s</string>
     <string name="csv_generated_msg_error_s">Không thể tạo csv. Làm ơn hãy thử lại. Lỗi: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt không có sẵn cho các giao dịch chưa thực hiện</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt không có sẵn cho các giao dịch gửi đi</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Tùy chọn bộ lọc</string>
     <string name="all">Tất cả các</string>
     <string name="sent">Gởi</string>
     <string name="received">Nhận</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Số PIN hiện tại</string>
     <string name="please_enter_old_pin">Vui lòng nhập số PIN cũ</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Lỗi kết nối nút, thử lại</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Lỗi từ nút đầy đủ. Thưa: %1$s</string>
     <string name="error_payment_amount_title">Số tiền chênh lệch nhận được</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Chúng tôi nhận được khoản thanh toán đến nhưng không thể tìm thấy yêu cầu nào</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s hiện đã bị vô hiệu hóa do sự cố mạng hoặc thanh khoản</string>
 
 </resources>

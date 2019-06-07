@@ -158,7 +158,6 @@
     <string name="dismiss">खारिज</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">कीमत का भुगतान पूरा हुआ!</string>
     <string name="button__view_transactions">लेन-देन देखें</string>
     <string name="template__received">प्राप्त: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">पीडीएफ उत्पन्न करने में असमर्थ। कृपया पुन: प्रयास करें। त्रुटि: %1$s</string>
     <string name="csv_generated_msg_s">सीएसवी उत्पन्न और सहेजा गया: %1$s</string>
     <string name="csv_generated_msg_error_s">सीएसवी उत्पन्न करने में असमर्थ। कृपया पुन: प्रयास करें। त्रुटि: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">अधूरा लेनदेन के लिए eReceipt उपलब्ध नहीं है</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt निवर्तमान लेनदेन के लिए उपलब्ध नहीं है</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">फ़िल्टर विकल्प</string>
     <string name="all">सब</string>
     <string name="sent">भेज दिया</string>
     <string name="received">प्राप्त किया</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">वर्तमान पिन नंबर</string>
     <string name="please_enter_old_pin">कृपया पुराना पिन नंबर दर्ज करें</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">नोड कनेक्शन त्रुटि, पुनः प्रयास कर रहा है</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">पूर्ण नोड से त्रुटि। Msg: %1$s</string>
     <string name="error_payment_amount_title">प्राप्त राशि विसंगति</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">हमें आने वाला भुगतान मिला, लेकिन कोई अनुरोध नहीं मिला</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s को अब नेटवर्क या तरलता के मुद्दों के कारण अक्षम कर दिया गया है</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">Dismiss</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Bezuelung bestätegt!</string>
     <string name="button__view_transactions">View Transactions</string>
     <string name="template__received">Received: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Kann net pdf generéieren. Wiedersprüng Wieder Feeler: %1$s</string>
     <string name="csv_generated_msg_s">CSV generéiert a gespäichert: %1$s</string>
     <string name="csv_generated_msg_error_s">Kann net CSV generéieren. Wiedersprüng Wieder Feeler: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt ass net fir onerfëllte Transaktioune verfügbar</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt net fir ausgehende Transaktioune verfügbar</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filteroptiounen</string>
     <string name="all">All</string>
     <string name="sent">Geschéckt</string>
     <string name="received">Received</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Aktuelle PIN Nummer</string>
     <string name="please_enter_old_pin">Gitt d\'aler PIN Nummer un</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Knappverbindungsfehler, erneit</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Feeler vu volle Knäpp. Mail: %1$s</string>
     <string name="error_payment_amount_title">Received Betrag Diskrepanz</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Mir hunn eng Entrée gemaach, awer keng Ufro ka fonnt ginn</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s ass elo op enger anerer Säit wéinst Netzwierk oder Liquiditéitsthemen behënnert ginn</string>
 
 </resources>

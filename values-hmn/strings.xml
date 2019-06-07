@@ -158,7 +158,6 @@
     <string name="dismiss">Tso tawm</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Kev them nqi tshaj tawm!</string>
     <string name="button__view_transactions">Pom Cov Kev Sib Tham</string>
     <string name="template__received">Tau txais: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Tsis tau tsim pdf. Thov rov ua dua. Yuam kev: %1$s</string>
     <string name="csv_generated_msg_s">CSV generated thiab tau txais kev cawmdim: %1$s</string>
     <string name="csv_generated_msg_error_s">Tsis tau tsim csv. Thov rov ua dua. Yuam kev: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt tsis muaj rau kev ua lag luam tsis muaj nqis</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt tsis muaj rau cov kev lag luam tawm</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Lim Kev Xaiv</string>
     <string name="all">Tag nrho</string>
     <string name="sent">Xa ntawv</string>
     <string name="received">Tau txais</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Tus naj npawb PIN tam sim no</string>
     <string name="please_enter_old_pin">Thov nkag tus nab npawb PIN qub</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Node kev twb kev txuas yuam kev, retrying</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Kev ua yuam kev ntawm tag nrho. Msg: %1$s</string>
     <string name="error_payment_amount_title">Tau txais nyiaj tsis sib xws</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Peb tau txais ib qho khoom them tuaj, tab sis tsis muaj qhov thov tuaj yeem nrhiav tau</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s tau xiam oob qhab vim tam sim no vim muaj teeb meem network lossis teeb meem</string>
 
 </resources>

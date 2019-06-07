@@ -158,7 +158,6 @@
     <string name="dismiss">Khubaza</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Ukukhokha kuqinisekisiwe!</string>
     <string name="button__view_transactions">Buka ukuthengiselana</string>
     <string name="template__received">Imukelwe: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Ayikwazi ukwenza i-pdf. Sicela uphinde uzame. Iphutha: %1$s</string>
     <string name="csv_generated_msg_s">I-CSV yenziwe futhi igcinwa: %1$s</string>
     <string name="csv_generated_msg_error_s">Ayikwazi ukwenza i-csv. Sicela uphinde uzame. Iphutha: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">I-Receipt ayitholakali ngokuthengiswa okungagcwaliseki</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">I-Receipt ayitholakali ekuthengisweni okuphumayo</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Izinketho zokuhlunga</string>
     <string name="all">Konke</string>
     <string name="sent">Kuthunyelwe</string>
     <string name="received">Yamukelwe</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Inombolo ye-PIN yamanje</string>
     <string name="please_enter_old_pin">Sicela ufake inombolo ye-PIN endala</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Iphutha lokuxhumeka kwe-Node, uzama futhi</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Iphutha elivela ku-node egcwele. Msg: %1$s</string>
     <string name="error_payment_amount_title">Ukuthola ukungafani kwemali</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Sithole inkokhelo engenayo, kodwa akukho sicelo esingatholakala</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s ikhutshaziwe manje ngenxa yezinkinga zenethiwekhi noma ze-liquidity</string>
 
 </resources>

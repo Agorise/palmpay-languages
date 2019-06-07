@@ -158,7 +158,6 @@
     <string name="dismiss">Dismiss</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Vola azo antoka!</string>
     <string name="button__view_transactions">Jereo ny Transactions</string>
     <string name="template__received">Received: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Tsy afaka mamorona pdf. Avereno azafady. Error: %1$s</string>
     <string name="csv_generated_msg_s">Namorona sy voavonjy ny CSV: %1$s</string>
     <string name="csv_generated_msg_error_s">Tsy afaka namorona csv. Avereno azafady. Error: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt tsy misy amin\'ny fivarotana tsy tanteraka</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt tsy misy amin\'ny fivarotana mivantana</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Safidy fisie</string>
     <string name="all">rehetra</string>
     <string name="sent">Sent</string>
     <string name="received">Received</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">PIN misy amin\'izao fotoana izao</string>
     <string name="please_enter_old_pin">Ampidiro azafady ny PIN taloha</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Famerenana ny fifandraisana amin\'ny node, mamerina indray</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Hadisoana avy amin\'ny fotony feno. Msg: %1$s</string>
     <string name="error_payment_amount_title">Nahazo fahasamihafana</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Nahazo fidiram-bola izahay, nefa tsy nisy fangatahana hita</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">Ny %1$s dia navotsotra noho ny adihevitra momba ny tambazotra na ny liquidity</string>
 
 </resources>

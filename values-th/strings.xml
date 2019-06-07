@@ -158,7 +158,6 @@
     <string name="dismiss">ยกเลิก</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">ยืนยันการชำระเงินแล้ว!</string>
     <string name="button__view_transactions">ดูธุรกรรม</string>
     <string name="template__received">ได้รับแล้ว: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">ไม่สามารถสร้าง pdf ได้ โปรดลองอีกครั้ง ข้อผิดพลาด: %1$s</string>
     <string name="csv_generated_msg_s">CSV สร้างและบันทึก: %1$s</string>
     <string name="csv_generated_msg_error_s">ไม่สามารถสร้าง csv โปรดลองอีกครั้ง ข้อผิดพลาด: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt ไม่สามารถใช้ได้สำหรับการทำธุรกรรมที่ไม่ได้ผล</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt ไม่สามารถใช้ได้สำหรับการทำธุรกรรมขาออก</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">ตัวเลือกตัวกรอง</string>
     <string name="all">ทั้งหมด</string>
     <string name="sent">ส่ง</string>
     <string name="received">ที่ได้รับ</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">หมายเลข PIN ปัจจุบัน</string>
     <string name="please_enter_old_pin">โปรดป้อนหมายเลข PIN เก่า</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">ข้อผิดพลาดในการเชื่อมต่อโหนดลองใหม่</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">ข้อผิดพลาดจากโหนดเต็ม ข่าวสารเกี่ยวกับ: %1$s</string>
     <string name="error_payment_amount_title">ความคลาดเคลื่อนของจำนวนเงินที่ได้รับ</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">เราได้รับการชำระเงินเข้ามา แต่ไม่พบคำขอ</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s ถูกปิดการใช้งานในตอนนี้เนื่องจากปัญหาเครือข่ายหรือสภาพคล่อง</string>
 
 </resources>

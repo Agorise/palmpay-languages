@@ -158,7 +158,6 @@
     <string name="dismiss">адхіляць</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Аплата пацвярджаецца!</string>
     <string name="button__view_transactions">выгляд здзелкі</string>
     <string name="template__received">Паступіла ў рэдакцыю: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Немагчыма стварыць PDF-файл. Калі ласка, паспрабуйце яшчэ раз. Памылка: %1$s</string>
     <string name="csv_generated_msg_s">CSV створаны і захаваны: %1$s</string>
     <string name="csv_generated_msg_error_s">Немагчыма стварыць файл CSV. Калі ласка, паспрабуйце яшчэ раз. Памылка: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt не даступныя для нявыкананых аперацый</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt не даступны для выходных транзакцый</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">параметры фільтра</string>
     <string name="all">усе</string>
     <string name="sent">пасланы</string>
     <string name="received">атрымана</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Бягучы нумар PIN</string>
     <string name="please_enter_old_pin">Калі ласка, увядзіце стары нумар PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Памылка злучэння з вузлом, паўторная спроба</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Памылка ад поўнага вузла. Msg: %1$s</string>
     <string name="error_payment_amount_title">Атрыманае колькасць Разыходжанне</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Мы атрымалі які ўваходзіць плацёж, але ніякага запыту не можа быць знойдзены</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s была адключаная ў цяперашні час з-за сетку або ліквіднасці пытанні</string>
 
 </resources>

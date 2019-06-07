@@ -158,7 +158,6 @@
     <string name="dismiss">Propustit</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Platba potvrzena!</string>
     <string name="button__view_transactions">Zobrazit transakce</string>
     <string name="template__received">Přijato: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Nelze generovat pdf. Zkuste to prosím znovu. Chyba: %1$s</string>
     <string name="csv_generated_msg_s">CSV generováno a uloženo: %1$s</string>
     <string name="csv_generated_msg_error_s">Nelze generovat csv. Zkuste to prosím znovu. Chyba: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt není k dispozici pro nenaplněné transakce</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt není k dispozici pro odchozí transakce</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Možnosti filtru</string>
     <string name="all">Všechno</string>
     <string name="sent">Odeslaná</string>
     <string name="received">Přijato</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Aktuální číslo PIN</string>
     <string name="please_enter_old_pin">Zadejte prosím staré číslo PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Chyba připojení uzlu, opakování</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Chyba z plného uzlu. Zpráva: %1$s</string>
     <string name="error_payment_amount_title">Nedostatek přijaté částky</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Dostali jsme příchozí platbu, ale nebylo možné žádnou žádost najít</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s bylo nyní zakázáno kvůli problémům se sítí nebo likviditou</string>
 
 </resources>

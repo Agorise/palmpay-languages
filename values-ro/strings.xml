@@ -158,7 +158,6 @@
     <string name="dismiss">destitui</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Plata confirmată!</string>
     <string name="button__view_transactions">Vizualizați tranzacțiile</string>
     <string name="template__received">Primit: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Imposibil de generat pdf. Reîncercați. Eroare: %1$s</string>
     <string name="csv_generated_msg_s">CSV generate și salvate: %1$s</string>
     <string name="csv_generated_msg_error_s">Imposibil de generat csv. Reîncercați. Eroare: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt nu este disponibil pentru tranzacțiile nerealizate</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt nu este disponibil pentru tranzacțiile de ieșire</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Opțiuni filtru</string>
     <string name="all">Toate</string>
     <string name="sent">Trimis</string>
     <string name="received">Primit</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Numărul PIN actual</string>
     <string name="please_enter_old_pin">Introduceți numărul PIN vechi</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Eroare conexiune la nod, reîncercare</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Eroare de la nodul complet. Mesaj: %1$s</string>
     <string name="error_payment_amount_title">Diferența sumă primită</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Avem o plată viitoare, dar nu a putut fi găsită nicio cerere</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s a fost dezactivat pentru moment datorită problemelor de rețea sau de lichiditate</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">Whakamutua</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Kua tautuhia te utu!</string>
     <string name="button__view_transactions">Tirohia nga Mahinga</string>
     <string name="template__received">Kua riro mai: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Kāore e taea te whakaputa pdf. Tono koa. Hapa: %1$s</string>
     <string name="csv_generated_msg_s">I hangahia te CSV me te whakaora: %1$s</string>
     <string name="csv_generated_msg_error_s">Kāore e taea te whakaputa csv. Tono koa. Hapa: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">Ko te Ritenga kaore e wātea ana mo nga whakawhitinga kore i mahia</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">Ko te Raraunga kore e wātea ana mo nga whakawhiti atu</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Kōwhiringa Tātari</string>
     <string name="all">Katoa</string>
     <string name="sent">Tukua</string>
     <string name="received">Kua riro mai</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Tau PIN o teianei</string>
     <string name="please_enter_old_pin">Tomohia koa te tau PIN tawhito</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Hapa te hononga hononga, te tango</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Hapa mai i te whanga katoa. Msg: %1$s</string>
     <string name="error_payment_amount_title">Ko te nui o te moni i whiwhihia</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">I whiwhi matou i te utu taumai, engari kaore he tono e kitea</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">Kua pahemo te %1$s i tenei wa mo te raruraru me te raruraru</string>
 
 </resources>

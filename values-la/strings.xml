@@ -158,7 +158,6 @@
     <string name="dismiss">Mitte</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Payment confirmavit?</string>
     <string name="button__view_transactions">View Acta</string>
     <string name="template__received">Accepistis: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">\'Non pdf generate. Placere retry. Error: %1$s</string>
     <string name="csv_generated_msg_s">Generari CSV salvus %1$s</string>
     <string name="csv_generated_msg_error_s">\'Non generate csv. Placere retry. Error: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">et non retardabit sufferentia misericordiam praesto eReceipt transactions</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">egressus est non available eReceipt transactions</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Sort Options</string>
     <string name="all">Omnis</string>
     <string name="sent">missus</string>
     <string name="received">suscepit</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">ACUS current numerus</string>
     <string name="please_enter_old_pin">PDF annorum numerum PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Nodi nexu errorem, retrying</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Error nodi a plena. Msg: %1$s</string>
     <string name="error_payment_amount_title">Accepistis quantum discrepat,</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Venimus ad ineuntes mercedem, sed rogationem explere non est inventus</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s nunc autem debilitata est ob network vel liquido exitibus</string>
 
 </resources>

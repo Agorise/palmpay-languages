@@ -158,7 +158,6 @@
     <string name="dismiss">Dispensar</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Pagamento Confirmado!</string>
     <string name="button__view_transactions">Visualizar transações</string>
     <string name="template__received">Recebido: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Não é possível gerar o pdf. Por favor tente novamente. Erro: %1$s</string>
     <string name="csv_generated_msg_s">CSV gerado e salvo: %1$s</string>
     <string name="csv_generated_msg_error_s">Não é possível gerar o csv. Por favor tente novamente. Erro: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt não disponível para transações não cumpridas</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt não disponível para transações de saída</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Opções de filtro</string>
     <string name="all">Todos</string>
     <string name="sent">Enviei</string>
     <string name="received">Recebido</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Número PIN atual</string>
     <string name="please_enter_old_pin">Por favor insira o número PIN antigo</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Erro de conexão do nó, tentando novamente</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Erro do nó completo. Msg: %1$s</string>
     <string name="error_payment_amount_title">Discrepância na quantidade recebida</string>
@@ -364,4 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Recebemos uma entrada de pagamento, mas nenhuma solicitação foi encontrada</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s foi desativado por enquanto devido a problemas de rede ou liquidez</string>
+
 </resources>

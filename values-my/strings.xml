@@ -158,7 +158,6 @@
     <string name="dismiss">ထုတ်ပစ်</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">ငွေပေးချေမှုရမည့်အတည်ပြုခဲ့သည်!</string>
     <string name="button__view_transactions">ကြည့်ရန်အရောင်းအဝယ်</string>
     <string name="template__received">Received: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">pdf generate လုပ်မရပါ။ ထပ်ကြိုးစားပါ။ အမှား: %1$s</string>
     <string name="csv_generated_msg_s">CSV ကိုထုတ်ပေးခြင်းနှင့်ကယ်တင်ခြင်းသို့: %1$s</string>
     <string name="csv_generated_msg_error_s">csv generate လုပ်မရပါ။ ထပ်ကြိုးစားပါ။ အမှား: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">ညျ့စုံအရောင်းအဘို့အ eReceipt ကိုမရရှိနိုင်</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">အထွက်ငွေကြေးလွှဲပြောင်းမှုမှာအဘို့အ eReceipt ကိုမရရှိနိုင်</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">filter Options ကို</string>
     <string name="all">အားလုံး</string>
     <string name="sent">Sent</string>
     <string name="received">Received</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">လက်ရှိ PIN နံပါတ်ကို</string>
     <string name="please_enter_old_pin">အဟောင်းကို PIN နံပါတ်ကိုရိုက်ထည့်ပေးပါ</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">node ဆက်သွယ်မှုအမှား, ပြန်လည်ကြိုးစားနေ</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">အပြည့်အဝ node ကိုထံမှမှားယွင်းနေသည်။ msg: %1$s</string>
     <string name="error_payment_amount_title">ရရှိထားသည့်ငွေပမာဏကိုကွာဟမှု</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">ကျနော်တို့အနေနဲ့ဝင်လာသောငွေပေးချေတယ်, ဒါပေမယ့်ဘယ်သူမျှမတောငျးဆိုခကျြကိုတှေ့နိုင်</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s ကြောင့် network သို့မဟုတ်ငွေဖြစ်လွယ်ကိစ္စရပ်များကိုယခုများအတွက်ပိတ်ထားလိုက်ပြီ</string>
 
 </resources>

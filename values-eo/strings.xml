@@ -158,7 +158,6 @@
     <string name="dismiss">Malakcepti</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Pago konfirmita!</string>
     <string name="button__view_transactions">Vidi Transakciojn</string>
     <string name="template__received">Ricevita: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Ne eblis generi pdf. Bonvolu repagi. Eraro: %1$s</string>
     <string name="csv_generated_msg_s">CSV generita kaj konservita: %1$s</string>
     <string name="csv_generated_msg_error_s">Ne eblis generi csv. Bonvolu repagi. Eraro: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt ne haveblas por neplenumitaj transakcioj</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt ne haveblas por eksiĝintaj transakcioj</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filtrilaj Elektoj</string>
     <string name="all">Ĉio</string>
     <string name="sent">Sendita</string>
     <string name="received">Ricevita</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Nuna PIN-nombro</string>
     <string name="please_enter_old_pin">Bonvolu enmeti malnovan PIN-nombro</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Nodo-rilata eraro, ree</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Eraro de plena nodo. Msg: %1$s</string>
     <string name="error_payment_amount_title">Ricevita kvanto discrepanco</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Ni ricevas venontajn pagojn, sed neniu peto povus esti trovita</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s estis malebligita nun pro problemoj pri reto aŭ likvideco</string>
 
 </resources>

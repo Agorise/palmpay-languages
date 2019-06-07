@@ -158,7 +158,6 @@
     <string name="dismiss">Memberhentikan</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Pembayaran dikonfirmasi!</string>
     <string name="button__view_transactions">Lihat Transaksi</string>
     <string name="template__received">Diterima: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Tidak dapat menghasilkan pdf. Silakan coba lagi. Kesalahan: %1$s</string>
     <string name="csv_generated_msg_s">CSV dibuat dan disimpan: %1$s</string>
     <string name="csv_generated_msg_error_s">Tidak dapat menghasilkan csv. Silakan coba lagi. Kesalahan: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt tidak tersedia untuk transaksi yang tidak terpenuhi</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt tidak tersedia untuk transaksi keluar</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Opsi Filter</string>
     <string name="all">Semua</string>
     <string name="sent">Terkirim</string>
     <string name="received">Diterima</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Nomor PIN saat ini</string>
     <string name="please_enter_old_pin">Harap masukkan nomor PIN lama</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Kesalahan koneksi node, coba lagi</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Kesalahan dari simpul penuh. Msg: %1$s</string>
     <string name="error_payment_amount_title">Perbedaan jumlah yang diterima</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Kami mendapat pembayaran masuk, tetapi tidak ada permintaan yang dapat ditemukan</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s telah dinonaktifkan untuk saat ini karena masalah jaringan atau likuiditas</string>
 
 </resources>

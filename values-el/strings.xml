@@ -158,7 +158,6 @@
     <string name="dismiss">Απολύω</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Η πληρωμή επιβεβαιώθηκε!</string>
     <string name="button__view_transactions">Προβολή συναλλαγών</string>
     <string name="template__received">Λήψη: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Δεν είναι δυνατή η δημιουργία pdf. Δοκιμάστε ξανά. Σφάλμα: %1$s</string>
     <string name="csv_generated_msg_s">Το CSV δημιουργήθηκε και αποθηκεύτηκε: %1$s</string>
     <string name="csv_generated_msg_error_s">Δεν είναι δυνατή η δημιουργία του csv. Δοκιμάστε ξανά. Σφάλμα: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">Το eReceipt δεν είναι διαθέσιμο για μη εκπληρωμένες συναλλαγές</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">Το eReceipt δεν είναι διαθέσιμο για εξερχόμενες συναλλαγές</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Επιλογές φίλτρου</string>
     <string name="all">Ολα</string>
     <string name="sent">Απεσταλμένα</string>
     <string name="received">Λήψη</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Τρέχων αριθμός PIN</string>
     <string name="please_enter_old_pin">Εισαγάγετε τον παλιό αριθμό PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Σφάλμα σύνδεσης κόμβου, επανάληψη</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Σφάλμα από τον πλήρη κόμβο. Msg: %1$s</string>
     <string name="error_payment_amount_title">Απόκλιση ληφθέντος ποσού</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Πήραμε μια εισερχόμενη πληρωμή, αλλά δεν βρέθηκε κανένα αίτημα</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s έχει απενεργοποιηθεί για τώρα λόγω προβλημάτων δικτύου ή ρευστότητας</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">Tashlab qo\'ymang</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">To\'lov tasdiqlandi!</string>
     <string name="button__view_transactions">Jurnallarni ko\'rish</string>
     <string name="template__received">Olindi: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Pdf yaratish imkoni yo\'q. Qayta urinib ko\'ring. Xato: %1$s</string>
     <string name="csv_generated_msg_s">CSV hosil qilindi va saqlandi: %1$s</string>
     <string name="csv_generated_msg_error_s">CSV yaratib bo\'lmadi. Qayta urinib ko\'ring. Xato: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt amalga oshirilmagan operatsiyalar uchun mavjud emas</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt chiquvchi bitimlar uchun mavjud emas</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filtrni tanlash</string>
     <string name="all">Hammasi</string>
     <string name="sent">Yuborildi</string>
     <string name="received">Qabul qildi</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Joriy PIN raqami</string>
     <string name="please_enter_old_pin">Eski PIN raqamini kiriting</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Nod ulanish xatosi, qayta urinib ko\'ring</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">To\'liq tugundagi xatolik. Msg: %1$s</string>
     <string name="error_payment_amount_title">Olingan miqdorning nomuvofiqligi</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Keladigan to\'lovni oldik, ammo hech qanday so\'rov topilmadi</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s tarmoq yoki likvidlik sababli hozirda o\'chirib qo\'yilgan</string>
 
 </resources>

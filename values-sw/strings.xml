@@ -158,7 +158,6 @@
     <string name="dismiss">Futa</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Malipo imethibitishwa!</string>
     <string name="button__view_transactions">Angalia Shughuli</string>
     <string name="template__received">Imepokea: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Haiwezi kuzalisha pdf. Tafadhali jaribu tena. Hitilafu: %1$s</string>
     <string name="csv_generated_msg_s">CSV imezalishwa na kuokolewa: %1$s</string>
     <string name="csv_generated_msg_error_s">Haiwezi kuzalisha csv. Tafadhali jaribu tena. Hitilafu: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">Rejeipt haipatikani kwa shughuli zisizokujazwa</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">Rejeipt haipatikani kwa shughuli zinazoondoka</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Vipengee vya Filter</string>
     <string name="all">Wote</string>
     <string name="sent">Imepelekwa</string>
     <string name="received">Imepokea</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Nambari ya sasa ya PIN</string>
     <string name="please_enter_old_pin">Tafadhali ingiza nambari ya PIN ya zamani</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Hitilafu ya kuunganisha node, kujaribu tena</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Hitilafu kutoka kwa node kamili. Msg: %1$s</string>
     <string name="error_payment_amount_title">Imepokea kiasi cha kutofautiana</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Tuna malipo ya ujao, lakini hakuna ombi linaloweza kupatikana</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s imezimwa kwa sasa kutokana na masuala ya mtandao au kioevu</string>
 
 </resources>

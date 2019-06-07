@@ -158,7 +158,6 @@
     <string name="dismiss">કાઢી નાખો</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">ચુકવણી પુષ્ટિ!</string>
     <string name="button__view_transactions">વ્યવહારો જુઓ</string>
     <string name="template__received">પ્રાપ્ત: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">પીડીએફ પેદા કરવામાં અસમર્થ. મહેરબાની કરીને ફરી પ્રયાસ કરો. ભૂલ: %1$s</string>
     <string name="csv_generated_msg_s">CSV જનરેટ અને સાચવેલ: %1$s</string>
     <string name="csv_generated_msg_error_s">CSV પેદા કરવામાં અસમર્થ. મહેરબાની કરીને ફરી પ્રયાસ કરો. ભૂલ: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">અપૂર્ણ ચુકવણી માટે ઇ-રસીદ ઉપલબ્ધ નથી</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">આઉટગોઇંગ ટ્રાન્ઝેક્શન માટે ઇ-રસીદ ઉપલબ્ધ નથી</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">ફિલ્ટર વિકલ્પો</string>
     <string name="all">બધા</string>
     <string name="sent">મોકલેલ</string>
     <string name="received">પ્રાપ્ત</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">વર્તમાન PIN નંબર</string>
     <string name="please_enter_old_pin">કૃપા કરીને જૂનો PIN નંબર દાખલ કરો</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">નોડ કનેક્શન ભૂલ, ફરીથી પ્રયત્ન કરી રહ્યું છે</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">સંપૂર્ણ નોડ માંથી ભૂલ. સંદેશ: %1$s</string>
     <string name="error_payment_amount_title">રકમ વિસંગતતા પ્રાપ્ત</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">અમને આવનારી ચુકવણી મળી, પરંતુ કોઈ વિનંતી મળી શકી ન હતી</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s હવે નેટવર્ક અથવા તરલતાની સમસ્યાઓના કારણે અક્ષમ કરવામાં આવી છે</string>
 
 </resources>

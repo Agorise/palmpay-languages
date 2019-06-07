@@ -158,7 +158,6 @@
     <string name="dismiss">Tolak</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Pembayaran disahkan!</string>
     <string name="button__view_transactions">Lihat Transaksi</string>
     <string name="template__received">Diterima: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Tidak dapat menjana pdf. Sila cuba lagi. Ralat: %1$s</string>
     <string name="csv_generated_msg_s">CSV dijana dan disimpan: %1$s</string>
     <string name="csv_generated_msg_error_s">Tidak dapat menjana csv. Sila cuba lagi. Ralat: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt tidak tersedia untuk urus niaga yang tidak dipenuhi</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt tidak tersedia untuk urus niaga keluar</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Pilihan Penapis</string>
     <string name="all">Semua</string>
     <string name="sent">Dihantar</string>
     <string name="received">Menerima</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Nombor PIN semasa</string>
     <string name="please_enter_old_pin">Sila masukkan nombor PIN lama</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Kesilapan sambungan node, mencuba semula</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Ralat dari nod penuh. Msg: %1$s</string>
     <string name="error_payment_amount_title">Jumlah perbezaan yang diterima</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Kami mendapat bayaran masuk, tetapi tiada permintaan boleh didapati</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s telah dilumpuhkan sekarang kerana isu rangkaian atau kecairan</string>
 
 </resources>

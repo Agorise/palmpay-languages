@@ -158,7 +158,6 @@
     <string name="dismiss">Босатыңыз</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Төлем расталған!</string>
     <string name="button__view_transactions">Мәмілелерді қарау</string>
     <string name="template__received">Қабылданды: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Pdf жасау мүмкін емес. Қайталап көріңіз. Қате: %1$s</string>
     <string name="csv_generated_msg_s">CSV құрылды және сақталды: %1$s</string>
     <string name="csv_generated_msg_error_s">Csv жасау мүмкін емес. Қайталап көріңіз. Қате: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt орындалмаған мәмілелер үшін қол жетімді емес</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt шығыс транзакцияларына қол жетімді емес</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Сүзгі параметрлері</string>
     <string name="all">Барлық</string>
     <string name="sent">Жіберілді</string>
     <string name="received">Алынды</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Ағымдағы PIN нөмірі</string>
     <string name="please_enter_old_pin">Ескі PIN нөмірін енгізіңіз</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Түйін қосылымының қатесі, қайталау</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Толық түйіннен қате. Msg: %1$s</string>
     <string name="error_payment_amount_title">Келтірілген соманың сәйкес келмеуі</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Біз кіріс төлемін алды, бірақ ешқандай сұрау табылған жоқ</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s желіге немесе өтімділік мәселелеріне байланысты қазірге дейін өшірілген</string>
 
 </resources>

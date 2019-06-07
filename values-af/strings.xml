@@ -158,7 +158,6 @@
     <string name="dismiss">ontslaan</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Betaling bevestig!</string>
     <string name="button__view_transactions">Bekyk transaksies</string>
     <string name="template__received">Ontvang: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Kan nie pdf genereer nie. Probeer asseblief weer. Fout: %1$s</string>
     <string name="csv_generated_msg_s">CSV gegenereer en gestoor: %1$s</string>
     <string name="csv_generated_msg_error_s">Kan nie csv genereer nie. Probeer asseblief weer. Fout: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt nie beskikbaar vir onvoltooide transaksies nie</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt nie beskikbaar vir uitgaande transaksies nie</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filter opsies</string>
     <string name="all">Almal</string>
     <string name="sent">gestuur</string>
     <string name="received">ontvang</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Huidige PIN-nommer</string>
     <string name="please_enter_old_pin">Voer asseblief ou PIN-nommer in</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Node verbinding fout, probeer weer</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Fout van die volle nodus. Msg: %1$s</string>
     <string name="error_payment_amount_title">Ontvangsbedragverskil</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Ons het \'n inkomende betaling ontvang, maar geen versoek kon gevind word nie</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s is vir die oomblik gedeaktiveer weens netwerk- of likiditeitskwessies</string>
 
 </resources>

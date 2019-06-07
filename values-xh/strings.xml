@@ -158,7 +158,6 @@
     <string name="dismiss">Cima</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Intlawulo iqinisekisiwe!</string>
     <string name="button__view_transactions">Jonga ukuThengiswa</string>
     <string name="template__received">Ifunyenwe: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Ayikwazi ukuvelisa pdf. Nceda uzame kwakhona. I mpazamo: %1$s</string>
     <string name="csv_generated_msg_s">I-CSV yenziwe kwaye igcinwa: %1$s</string>
     <string name="csv_generated_msg_error_s">Ayikwazi ukwenza i-csv. Nceda uzame kwakhona. I mpazamo: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">I-ReReipt ayifumanekanga ukuthengiswa okungagqibekanga</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">I-ReReipt ayifumanekanga kwiintengiso eziphumayo</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Khetha iFayile</string>
     <string name="all">Konke</string>
     <string name="sent">Thunyelwe</string>
     <string name="received">Ku funyenwe</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Inombolo yePIN yamanje</string>
     <string name="please_enter_old_pin">Nceda ufake inombolo ye-PIN endala</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Iphutha loxhumano lweNode, ukuzama kwakhona</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Iphutha kwi-node epheleleyo. UNksk: %1$s</string>
     <string name="error_payment_amount_title">Ukufumana ukungafani kwemali</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Sifumane inkokhelo engenayo, kodwa akukho sicelo esingafunyanwa</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s ikhutshaziwe ngoku ngenxa yemicimbi yenethiwekhi okanye yobutyebi</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">បោះបង់</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">ការទូទាត់បានបញ្ជាក់!</string>
     <string name="button__view_transactions">មើលប្រតិបត្តិការ</string>
     <string name="template__received">បានទទួល: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">មិនអាចបង្កើតឯកសារ PDF ។ សូមព្យាយាមម្តងទៀត។ កំហុសឆ្គង: %1$s</string>
     <string name="csv_generated_msg_s">CSV បង្កើតនិងរក្សាទុក: %1$s</string>
     <string name="csv_generated_msg_error_s">មិនអាចបង្កើត csv ។ សូមព្យាយាមម្តងទៀត។ កំហុសឆ្គង: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt មិនមានសម្រាប់ប្រតិបត្តិការដែលមិនបានបំពេញ</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt មិនមានសម្រាប់ប្រតិបត្តិការចេញទេ</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">ជម្រើសតម្រង</string>
     <string name="all">ទាំងអស់</string>
     <string name="sent">បានផ្ញើ</string>
     <string name="received">បានទទួល</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">លេខកូដសម្ងាត់បច្ចុប្បន្ន</string>
     <string name="please_enter_old_pin">សូមបញ្ចូលលេខកូដសម្ងាត់ចាស់</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">កំហុសការតភ្ជាប់ថ្នាំង, ព្យាយាមម្តងទៀត</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">កំហុសពីថ្នាំងពេញ។ Msg: %1$s</string>
     <string name="error_payment_amount_title">បានទទួលភាពខុសគ្នា</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">យើងទទួលបានការទូទាត់ចូលប៉ុន្តែមិនអាចរកបានទេ</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s ត្រូវបានបិទសម្រាប់ពេលនេះដោយសារតែបណ្តាញឬបញ្ហាសាច់ប្រាក់</string>
 
 </resources>

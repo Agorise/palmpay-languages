@@ -158,7 +158,6 @@
     <string name="dismiss">Afskedige</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Betaling bekræftet!</string>
     <string name="button__view_transactions">Se transaktioner</string>
     <string name="template__received">Modtaget: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Kunne ikke generere pdf. Prøv igen. Fejl: %1$s</string>
     <string name="csv_generated_msg_s">CSV genereret og gemt: %1$s</string>
     <string name="csv_generated_msg_error_s">Kunne ikke generere csv. Prøv igen. Fejl: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt ikke tilgængelig for uopfyldte transaktioner</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt ikke tilgængelig for udgående transaktioner</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filtreringsindstillinger</string>
     <string name="all">Alle</string>
     <string name="sent">Sendt</string>
     <string name="received">Modtaget</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Nuværende PIN-kode</string>
     <string name="please_enter_old_pin">Indtast venligst det gamle PIN-kode</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Noden tilslutningsfejl, forsøger igen</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Fejl fra fuldnoder. Msg: %1$s</string>
     <string name="error_payment_amount_title">Modtaget mængde uoverensstemmelse</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Vi fik en indgående betaling, men ingen forespørgsel kunne findes</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s er blevet deaktiveret for nu på grund af netværks- eller likviditetsproblemer</string>
 
 </resources>

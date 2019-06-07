@@ -158,7 +158,6 @@
     <string name="dismiss">Հեռացնել</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Վճարումը հաստատեց:</string>
     <string name="button__view_transactions">Դիտեք գործարքները</string>
     <string name="template__received">Ստացվել է `%1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Անհնար է ստեղծել pdf- ը: Խնդրում ենք կրկին փորձել: Սխալ `%1$s</string>
     <string name="csv_generated_msg_s">CSV գեներացվել եւ պահպանվել է `%1$s</string>
     <string name="csv_generated_msg_error_s">Անհնար է ստեղծել csv: Խնդրում ենք կրկին փորձել: Սխալ `%1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt- ը հասանելի չէ չկատարված գործարքների համար</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt մատչելի չէ արտագնա գործարքների համար</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Զտիչի ընտրանքներ</string>
     <string name="all">Բոլորը</string>
     <string name="sent">Ուղարկված է</string>
     <string name="received">Ստացված</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Ընթացիկ PIN համարը</string>
     <string name="please_enter_old_pin">Խնդրում ենք մուտքագրել նախկին PIN համարը</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Կոդի կապի սխալ, կրկնում</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Սխալ ամբողջական հանգույցից: Msg: %1$s</string>
     <string name="error_payment_amount_title">Ստացված գումարի անհամապատասխանությունը</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Մենք մուտքային վճար ենք ստացել, սակայն որեւէ խնդրանք չի եղել</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s- ը դարձել է ցանցի կամ իրացվելիության խնդիրների պատճառով</string>
 
 </resources>

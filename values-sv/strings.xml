@@ -158,7 +158,6 @@
     <string name="dismiss">Avfärda</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Betalning bekräftad!</string>
     <string name="button__view_transactions">Visa transaktioner</string>
     <string name="template__received">Mottagen: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Det gick inte att generera pdf. Försök igen. Fel: %1$s</string>
     <string name="csv_generated_msg_s">CSV genererade och sparade: %1$s</string>
     <string name="csv_generated_msg_error_s">Det gick inte att generera csv. Försök igen. Fel: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt är inte tillgängligt för ouppfyllda transaktioner</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt är inte tillgänglig för utgående transaktioner</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filteralternativ</string>
     <string name="all">Allt</string>
     <string name="sent">sände</string>
     <string name="received">Mottagen</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Aktuellt PIN-nummer</string>
     <string name="please_enter_old_pin">Vänligen ange gamla PIN-nummer</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Nodanslutningsfel, försök igen</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Fel från hel nod. Msg: %1$s</string>
     <string name="error_payment_amount_title">Mottagen mängd avvikelse</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Vi fick en inkommande betalning, men ingen förfrågan kunde hittas</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s har blivit inaktiverad för nu på grund av nätverks- eller likviditetsfrågor</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">Відхилити</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Платіж підтверджено!</string>
     <string name="button__view_transactions">Переглянути транзакції</string>
     <string name="template__received">Отримано: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Неможливо створити pdf. Повторіть спробу. Помилка: %1$s</string>
     <string name="csv_generated_msg_s">Згенеровано та збережено CSV: %1$s</string>
     <string name="csv_generated_msg_error_s">Неможливо генерувати csv. Повторіть спробу. Помилка: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt недоступний для невиконаних операцій</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt недоступний для вихідних угод</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Параметри фільтра</string>
     <string name="all">Все</string>
     <string name="sent">Надісланий</string>
     <string name="received">Отримано</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Поточний PIN-код</string>
     <string name="please_enter_old_pin">Будь ласка, введіть старий PIN-код</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Помилка підключення вузла, повторити спробу</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Помилка від повного вузла. Msg: %1$s</string>
     <string name="error_payment_amount_title">Отримано розбіжність суми</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Ми отримали вхідний платіж, але запит не знайдено</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s зараз вимкнено через проблеми з мережею або ліквідністю</string>
 
 </resources>

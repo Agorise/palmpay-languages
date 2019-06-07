@@ -158,7 +158,6 @@
     <string name="dismiss">Dismiss</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Betelje befêstige!</string>
     <string name="button__view_transactions">Besjoch Transaksjes</string>
     <string name="template__received">Received: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Kin pdf net generearje. Please try again. Flater: %1$s</string>
     <string name="csv_generated_msg_s">CSV generearre en bewarre: %1$s</string>
     <string name="csv_generated_msg_error_s">Koe gjin csv ferwiderje. Please try again. Flater: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt net beskikber foar ûngeduldige transaksjes</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt net beskikber foar útgeande transaksjes</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filteropsjes</string>
     <string name="all">Alle</string>
     <string name="sent">Ferstjoerd</string>
     <string name="received">Oanbean</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Aktuele PIN-nûmer</string>
     <string name="please_enter_old_pin">Fier jo âlde PIN-nûmer yn</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Knooppunt ferbining flater, retypearjen</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Flater by folsleine knooppunt. Msg: %1$s</string>
     <string name="error_payment_amount_title">Oanbefellende bedrach fermindering</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Wy krigen in ynkommende betelling, mar gjin oanfraach koe fûn wurde</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s is no útskeakele foarweld fan netwurken of liquidityproblemen</string>
 
 </resources>

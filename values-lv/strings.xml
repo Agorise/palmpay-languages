@@ -158,7 +158,6 @@
     <string name="dismiss">Atlaist</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Maksājums ir apstiprināts!</string>
     <string name="button__view_transactions">Skatīt darījumus</string>
     <string name="template__received">Saņemts: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Nevar ģenerēt pdf. Lūdzu, mēģiniet vēlreiz. Kļūda: %1$s</string>
     <string name="csv_generated_msg_s">CSV ģenerēts un saglabāts: %1$s</string>
     <string name="csv_generated_msg_error_s">Nevar ģenerēt csv. Lūdzu, mēģiniet vēlreiz. Kļūda: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt nav pieejams neizpildītiem darījumiem</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt nav pieejams izejošajiem darījumiem</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filtra opcijas</string>
     <string name="all">Viss</string>
     <string name="sent">Nosūtīts</string>
     <string name="received">Saņemts</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Pašreizējais PIN numurs</string>
     <string name="please_enter_old_pin">Lūdzu, ievadiet veco PIN kodu</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Node savienojuma kļūda, atkārtojas mēģinājums</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Kļūda no pilnā mezgla. Ziņojums: %1$s</string>
     <string name="error_payment_amount_title">Saņemtās summas neatbilstība</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Mēs saņēmām ienākošu maksājumu, taču neviens pieprasījums netika atrasts</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s tagad ir atspējots tīkla vai likviditātes problēmu dēļ</string>
 
 </resources>

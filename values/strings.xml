@@ -165,7 +165,6 @@
     <string name="dismiss">Dismiss</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Payment confirmed!</string>
     <string name="button__view_transactions">View Transactions</string>
     <string name="template__received">Received: %1$s</string>
 
@@ -308,8 +307,11 @@
     <string name="pdf_generated_msg_error_s">Unable to generate pdf. Please retry. Error : %1$s</string>
     <string name="csv_generated_msg_s">CSV generated and saved : %1$s</string>
     <string name="csv_generated_msg_error_s">Unable to generate csv. Please retry. Error : %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt not available for unfulfilled transactions</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt not available for outgoing transactions</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filter Options</string>
     <string name="all">All</string>
     <string name="sent">Sent</string>
     <string name="received">Received</string>
@@ -361,9 +363,6 @@
     <string name="txt_current_pin">Current PIN</string>
     <string name="please_enter_old_pin">Please enter old PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Node connection error, retrying</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Error from full node. Msg: %1$s</string>
     <string name="error_payment_amount_title">Received amount discrepancy</string>
@@ -371,5 +370,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">We got an incoming payment, but no request could be found</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s has been disabled for now due to network or liquidity issues</string>
 
 </resources>

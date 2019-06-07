@@ -158,7 +158,6 @@
     <string name="dismiss">Baztertu</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Ordainketa baieztatu da!</string>
     <string name="button__view_transactions">Ikusi Transakzioak</string>
     <string name="template__received">Jasotakoa: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Ezin da pdf sortu. Berriro saiatu. Errorea: %1$s</string>
     <string name="csv_generated_msg_s">Sortutako eta gordetako CSV: %1$s</string>
     <string name="csv_generated_msg_error_s">Ezin da CSV sortu. Berriro saiatu. Errorea: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt ez dago erabilgarri ez dagoen transakzioetarako</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt ez dago erabilgarri irteerako transakzioetarako</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Iragazkiaren aukerak</string>
     <string name="all">guztiak</string>
     <string name="sent">bidalia</string>
     <string name="received">Jaso</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Uneko PIN zenbakia</string>
     <string name="please_enter_old_pin">Idatzi PIN zenbaki zaharra</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Nodo konexioaren errorea, berriz saiatzen</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Errorea nodo osotik. Msg: %1$s</string>
     <string name="error_payment_amount_title">Jasotako zenbatekoaren desberdintasuna jaso da</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Sarrerako ordainketa bat lortu dugu, baina ez da eskaera aurkitu</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s orain desgaituta egon da sarearen edo likidezia arazoen ondorioz</string>
 
 </resources>

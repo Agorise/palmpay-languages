@@ -158,7 +158,6 @@
     <string name="dismiss">버리다</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">결제가 승인 됨!</string>
     <string name="button__view_transactions">거래보기</string>
     <string name="template__received">받은 : %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">pdf를 생성 할 수 없습니다. 다시 시도하십시오. 오류 : %1$s</string>
     <string name="csv_generated_msg_s">CSV 생성 및 저장 : %1$s</string>
     <string name="csv_generated_msg_error_s">CSV를 생성 할 수 없습니다. 다시 시도하십시오. 오류 : %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">완료되지 않은 거래에는 eReceipt를 사용할 수 없습니다.</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt는 발신 트랜잭션에 사용할 수 없습니다.</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">필터 옵션</string>
     <string name="all">모든</string>
     <string name="sent">전송 됨</string>
     <string name="received">받은</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">현재 PIN 번호</string>
     <string name="please_enter_old_pin">이전 PIN 번호를 입력하십시오.</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">노드 연결 오류, 재 시도 중</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">전체 노드에서 오류가 발생했습니다. 메시지 : %1$s</string>
     <string name="error_payment_amount_title">수령 금액 불일치</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">입금이 있었지만 요청을 찾을 수 없습니다.</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">네트워크 또는 유동성 문제로 인해 %1$s이 (가) 현재 사용 중지되었습니다.</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">გაუქმება</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">გადახდა დაადასტურა!</string>
     <string name="button__view_transactions">ნახვა გარიგებები</string>
     <string name="template__received">მიღებულია: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">ვერ წარმოქმნის pdf. გთხოვთ, სცადოთ. შეცდომა: %1$s</string>
     <string name="csv_generated_msg_s">CSV გენერირებული და შენახულია: %1$s</string>
     <string name="csv_generated_msg_error_s">ვერ ხერხდება CSV გენერირება. გთხოვთ, სცადოთ. შეცდომა: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt არ არის ხელმისაწვდომი შეუსრულებელი ოპერაციებისათვის</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">გაუქმება არ არის ხელმისაწვდომი გამავალი ოპერაციებისათვის</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">ფილტრის პარამეტრები</string>
     <string name="all">ყველა</string>
     <string name="sent">Გაგზავნილი</string>
     <string name="received">მიღებულია</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">მიმდინარე PIN ნომერი</string>
     <string name="please_enter_old_pin">გთხოვთ, შეიყვანოთ ძველი PIN ნომერი</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">კვანძის კავშირი შეცდომა, დაჩქარება</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">შეცდომა სრული კვანძისგან. Msg: %1$s</string>
     <string name="error_payment_amount_title">მიღებული თანხმობა</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">ჩვენ მივიღეთ შემომავალი გადახდა, მაგრამ მოთხოვნა ვერ მოიძებნა</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s უკვე გათიშულია ქსელის ან ლიკვიდურობის გამო</string>
 
 </resources>

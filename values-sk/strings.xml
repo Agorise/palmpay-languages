@@ -158,7 +158,6 @@
     <string name="dismiss">zamietnuť</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Platba potvrdená!</string>
     <string name="button__view_transactions">Zobraziť transakcie</string>
     <string name="template__received">Prijaté: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Nemožno generovať pdf. Skúste to znova. Chyba: %1$s</string>
     <string name="csv_generated_msg_s">Vytvorený a uložený súbor CSV: %1$s</string>
     <string name="csv_generated_msg_error_s">Nepodarilo sa generovať csv. Skúste to znova. Chyba: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt nie je k dispozícii pre nenaplnené transakcie</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt nie je k dispozícii pre odchádzajúce transakcie</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Možnosti filtra</string>
     <string name="all">všetko</string>
     <string name="sent">odoslané</string>
     <string name="received">obdržané</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Aktuálne číslo PIN</string>
     <string name="please_enter_old_pin">Zadajte staré číslo PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Chyba spojenia uzla, opakovanie</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Chyba z plného uzla. Msg: %1$s</string>
     <string name="error_payment_amount_title">Rozdiel medzi prijatou sumou</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Prijali sme prichádzajúcu platbu, ale žiadna žiadosť sa nenašla</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s bol momentálne zablokovaný kvôli problémom so sieťou alebo likviditou</string>
 
 </resources>

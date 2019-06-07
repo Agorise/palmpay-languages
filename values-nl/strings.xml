@@ -158,7 +158,6 @@
     <string name="dismiss">ontslaan</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Betaling bevestigd!</string>
     <string name="button__view_transactions">Bekijk transacties</string>
     <string name="template__received">Ontvangen: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Onmogelijk om pdf te genereren. Probeer het opnieuw. Fout: %1$s</string>
     <string name="csv_generated_msg_s">CSV gegenereerd en opgeslagen: %1$s</string>
     <string name="csv_generated_msg_error_s">Kan csv niet genereren. Probeer het opnieuw. Fout: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt niet beschikbaar voor niet-uitgevoerde transacties</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt niet beschikbaar voor uitgaande transacties</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filteropties</string>
     <string name="all">Alle</string>
     <string name="sent">Verzonden</string>
     <string name="received">Ontvangen</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Huidige pincode</string>
     <string name="please_enter_old_pin">Voer alstublieft de oude pincode in</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Node verbindingsfout, opnieuw proberen</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Fout van volledig knooppunt. Msg: %1$s</string>
     <string name="error_payment_amount_title">Ontvangen hoeveelheid discrepantie</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">We hebben een inkomende betaling ontvangen, maar er is geen verzoek gevonden</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s is nu uitgeschakeld vanwege netwerk- of liquiditeitsproblemen</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">ವಜಾಗೊಳಿಸಿ</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">ಪಾವತಿ ದೃಢಪಡಿಸಿದೆ!</string>
     <string name="button__view_transactions">ಟ್ರಾನ್ಸಾಕ್ಷನ್ಸ್ ವೀಕ್ಷಿಸಿ</string>
     <string name="template__received">ಸ್ವೀಕರಿಸಲಾಗಿದೆ: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">ಪಿಡಿಎಫ್ ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಮರುಪ್ರಯತ್ನಿಸಿ. ದೋಷ: %1$s</string>
     <string name="csv_generated_msg_s">CSV ರಚಿಸಲಾಗಿದೆ ಮತ್ತು ಉಳಿಸಲಾಗಿದೆ: %1$s</string>
     <string name="csv_generated_msg_error_s">Csv ಅನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಮರುಪ್ರಯತ್ನಿಸಿ. ದೋಷ: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">ಅತೃಪ್ತ ವ್ಯವಹಾರಗಳಿಗೆ eReceipt ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">ಹೊರಹೋಗುವ ವಹಿವಾಟುಗಳಿಗೆ eReceipt ಲಭ್ಯವಿಲ್ಲ</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">ಫಿಲ್ಟರ್ ಆಯ್ಕೆಗಳು</string>
     <string name="all">ಎಲ್ಲಾ</string>
     <string name="sent">ಕಳುಹಿಸಲಾಗಿದೆ</string>
     <string name="received">ಸ್ವೀಕರಿಸಲಾಗಿದೆ</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">ಪ್ರಸ್ತುತ ಪಿನ್ ಸಂಖ್ಯೆ</string>
     <string name="please_enter_old_pin">ದಯವಿಟ್ಟು ಹಳೆಯ ಪಿನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">ನೋಡ್ ಸಂಪರ್ಕ ದೋಷ, ಮರುಪ್ರಯತ್ನಿಸಲಾಗುತ್ತಿದೆ</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">ಪೂರ್ಣ ನೋಡ್ನಿಂದ ದೋಷ. Msg: %1$s</string>
     <string name="error_payment_amount_title">ಸ್ವೀಕರಿಸಿದ ಮೊತ್ತ ವ್ಯತ್ಯಾಸ</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">ನಾವು ಒಳಬರುವ ಪಾವತಿಯನ್ನು ಪಡೆದುಕೊಂಡಿದ್ದೇವೆ, ಆದರೆ ಯಾವುದೇ ವಿನಂತಿಯನ್ನು ಕಂಡುಹಿಡಿಯಲಾಗಲಿಲ್ಲ</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">ನೆಟ್ವರ್ಕ್ ಅಥವಾ ದ್ರವ್ಯತೆ ಸಮಸ್ಯೆಗಳ ಕಾರಣದಿಂದಾಗಿ %1$s ಅನ್ನು ಈಗ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">खारेज गर्नुहोस्</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">भुक्तानी पुष्टि भयो!</string>
     <string name="button__view_transactions">लेनदेन हेर्नुहोस्</string>
     <string name="template__received">प्राप्त: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Pdf उत्पन्न गर्न असमर्थ। कृपया फेरि प्रयास गर्नुहोस्। त्रुटि: %1$s</string>
     <string name="csv_generated_msg_s">CSV उत्पन्न र बचत गरिएको: %1$s</string>
     <string name="csv_generated_msg_error_s">Csv उत्पन्न गर्न असमर्थ। कृपया फेरि प्रयास गर्नुहोस्। त्रुटि: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">असुरक्षित लेनदेनका लागि eReceipt उपलब्ध छैन</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">बाहिर जाने लेनदेनको लागि eReceipt उपलब्ध छैन</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">फिल्टर विकल्पहरू</string>
     <string name="all">सबै</string>
     <string name="sent">पठायो</string>
     <string name="received">प्राप्त भयो</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">हालको PIN नम्बर</string>
     <string name="please_enter_old_pin">कृपया पुरानो PIN नम्बर प्रविष्ट गर्नुहोस्</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">नोड जडान त्रुटि, पुन: प्रयास गर्दै</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">पूर्ण नोडबाट त्रुटि। Msg: %1$s</string>
     <string name="error_payment_amount_title">प्राप्त रकम विचलन</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">हामीले आगमन भुक्तानी पार्यौं, तर कुनै अनुरोध फेला परेन</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s अब नेटवर्कको लागि असक्षम गरिएको छ वा तरलता समस्याहरू</string>
 
 </resources>

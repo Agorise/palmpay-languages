@@ -158,7 +158,6 @@
     <string name="dismiss">Sleppa</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Greiðsla staðfest!</string>
     <string name="button__view_transactions">Skoða viðskipti</string>
     <string name="template__received">Móttekið: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Ekki hægt að búa til pdf. Vinsamlegast reyndu aftur. Villa: %1$s</string>
     <string name="csv_generated_msg_s">CSV mynda og vistað: %1$s</string>
     <string name="csv_generated_msg_error_s">Gat ekki búið til csv. Vinsamlegast reyndu aftur. Villa: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt ekki í boði fyrir ófullnægjandi viðskipti</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt ekki í boði fyrir útflutning</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Sía valkostir</string>
     <string name="all">Allt</string>
     <string name="sent">Sent</string>
     <string name="received">Móttekin</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Núverandi PIN númer</string>
     <string name="please_enter_old_pin">Vinsamlegast sláðu inn gömul PIN númer</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Nýr tenging villa, reyndu aftur</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Villa úr fulla hnút. Msg: %1$s</string>
     <string name="error_payment_amount_title">Móttekið magn misræmi</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Við fengum greiddan innborgun, en engin beiðni fannst</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s hefur verið lokað fyrir nú vegna net eða lausafjárútgáfu</string>
 
 </resources>

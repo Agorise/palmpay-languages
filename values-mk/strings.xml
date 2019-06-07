@@ -158,7 +158,6 @@
     <string name="dismiss">Отфрли</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Потврдено е исплата!</string>
     <string name="button__view_transactions">Прикажи ги трансакциите</string>
     <string name="template__received">Добиени: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Не може да се генерира pdf. Ве молиме обидете се повторно. Грешка: %1$s</string>
     <string name="csv_generated_msg_s">Создадено и зачувано CSV: %1$s</string>
     <string name="csv_generated_msg_error_s">Не може да се генерира CSV. Ве молиме обидете се повторно. Грешка: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt не е достапен за неисполнети трансакции</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt не е достапен за излезни трансакции</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Опции за филтрирање</string>
     <string name="all">Сите</string>
     <string name="sent">Испратено</string>
     <string name="received">Примена</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Тековни ПИН-број</string>
     <string name="please_enter_old_pin">Ве молиме внесете го стариот ПИН-број</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Грешка при поврзување на јазол, повторување</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Грешка од целосниот јазол. Msg: %1$s</string>
     <string name="error_payment_amount_title">Нееднаквост на примената износи</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Добивме дојдовно плаќање, но ниедно барање не може да се најде</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s засега е оневозможено поради проблеми со мрежата или со ликвидност</string>
 
 </resources>

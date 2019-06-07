@@ -158,7 +158,6 @@
     <string name="dismiss">отклонять</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Оплата подтверждена!</string>
     <string name="button__view_transactions">Просмотр транзакций</string>
     <string name="template__received">Получено: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Не удалось создать PDF. Повторите попытку. Ошибка: %1$s</string>
     <string name="csv_generated_msg_s">CSV сгенерирован и сохранен: %1$s</string>
     <string name="csv_generated_msg_error_s">Не удалось создать csv. Повторите попытку. Ошибка: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">Электронная квитанция недоступна для невыполненных транзакций</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">Электронная квитанция недоступна для исходящих транзакций</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Параметры фильтра</string>
     <string name="all">Все</string>
     <string name="sent">Отправлено</string>
     <string name="received">Получено</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Текущий номер PIN</string>
     <string name="please_enter_old_pin">Введите старый PIN-код</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Ошибка подключения узла, повторная попытка</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Ошибка от полного узла. Msg: %1$s</string>
     <string name="error_payment_amount_title">Расхождение полученной суммы</string>
@@ -364,4 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Мы получили входящий платеж, но запрос не найден</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s на данный момент отключен из-за проблем с сетью или ликвидностью</string>
+
 </resources>

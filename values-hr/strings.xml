@@ -158,7 +158,6 @@
     <string name="dismiss">Odbaciti</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Potvrđena uplata!</string>
     <string name="button__view_transactions">Prikaz transakcija</string>
     <string name="template__received">Primljeno: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Nije moguće generirati pdf. Pokušajte ponovno. Pogreška: %1$s</string>
     <string name="csv_generated_msg_s">CSV generiran i spremljen: %1$s</string>
     <string name="csv_generated_msg_error_s">Nije moguće generirati csv. Pokušajte ponovno. Pogreška: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">ePrimitak nije dostupan za neispunjene transakcije</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt nije dostupan za odlazne transakcije</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Opcije filtra</string>
     <string name="all">svi</string>
     <string name="sent">Poslano</string>
     <string name="received">primljen</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Trenutni PIN broj</string>
     <string name="please_enter_old_pin">Unesite stari PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Pogreška pri povezivanju čvora, pokušavajući ponovno</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Pogreška iz punog čvora. Msg: %1$s</string>
     <string name="error_payment_amount_title">Nepodudarnost primljenog iznosa</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Dobili smo dolaznu uplatu, ali nijedan zahtjev nije moguće pronaći</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s zasad je onemogućen zbog problema s mrežom ili likvidnošću</string>
 
 </resources>

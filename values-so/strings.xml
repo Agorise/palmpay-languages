@@ -158,7 +158,6 @@
     <string name="dismiss">Iska daa</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Lacagta la xaqiijiyay!</string>
     <string name="button__view_transactions">Eeg macaamilada</string>
     <string name="template__received">La helay: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Awood ma lahan karo abuurista pdf. Fadlan sii wad. Cilad: %1$s</string>
     <string name="csv_generated_msg_s">CSV ayaa la sameeyay oo la badbaadiyey: %1$s</string>
     <string name="csv_generated_msg_error_s">Awood uma leh in la sameeyo csv. Fadlan sii wad. Cilad: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt oo aan loo helin macaamilo aan macquul ahayn</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt oo aan loo helin macaamilo dibadeed</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Fursadaha Fursadaha</string>
     <string name="all">Dhammaan</string>
     <string name="sent">Diray</string>
     <string name="received">Helay</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Lambarka PIN hadda</string>
     <string name="please_enter_old_pin">Fadlan gali lambarka PIN ee hore</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Qalabka isku-xirka Node, dib-u-eegidda</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Cilad ka timid masawir buuxa. Msg: %1$s</string>
     <string name="error_payment_amount_title">Maqnaanshaha macaashka la helay</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Waxaan helnay lacag soo gelitaan ah, laakiin wax codsi ah lama heli karo</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s ayaa haatan naafo ah sababtoo ah arimaha shabakada ama xisaabta</string>
 
 </resources>

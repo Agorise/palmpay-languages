@@ -158,7 +158,6 @@
     <string name="dismiss">ngabubarkeun</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Pamayaran dikonfirmasi!</string>
     <string name="button__view_transactions">Témbongkeun transaksi</string>
     <string name="template__received">Ditampi: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Bisa ngahasilkeun pdf. Mangga Coba deui. Kasalahan: %1$s</string>
     <string name="csv_generated_msg_s">CSV dihasilkeun sarta disimpen: %1$s</string>
     <string name="csv_generated_msg_error_s">Bisa ngahasilkeun CSV. Mangga Coba deui. Kasalahan: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt teu sadia pikeun transaksi unfulfilled</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt teu sadia pikeun transaksi kaluar</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">filter Options</string>
     <string name="all">sadaya</string>
     <string name="sent">dikirim</string>
     <string name="received">nampi</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Jumlah PIN ayeuna</string>
     <string name="please_enter_old_pin">Mangga lebetkeun angka PIN heubeul</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Titik kasalahan sambungan, retrying</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Kasalahan tina titik pinuh. Msg: %1$s</string>
     <string name="error_payment_amount_title">Nampi Jumlah sajalan</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Simkuring ngagaduhan hiji mayar asup, tapi henteu pamundut bisa kapanggih</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s geus ditumpurkeun pikeun ayeuna alatan jaringan atawa liquidity isu</string>
 
 </resources>

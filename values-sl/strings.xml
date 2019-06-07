@@ -158,7 +158,6 @@
     <string name="dismiss">Zavrni</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Plačilo potrjeno!</string>
     <string name="button__view_transactions">Ogled transakcij</string>
     <string name="template__received">Prejeto: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Ni mogoče ustvariti pdf-ja. Prosimo, poskusite ponovno. Napaka: %1$s</string>
     <string name="csv_generated_msg_s">Ustvarjeno in shranjeno CSV: %1$s</string>
     <string name="csv_generated_msg_error_s">Ni mogoče ustvariti csv. Prosimo, poskusite ponovno. Napaka: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">ePrejem ni na voljo za neizpolnjene transakcije</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">ePrejem ni na voljo za odhodne transakcije</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Možnosti filtra</string>
     <string name="all">Vse</string>
     <string name="sent">Poslano</string>
     <string name="received">Prejeto</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Trenutna številka PIN</string>
     <string name="please_enter_old_pin">Vnesite staro PIN številko</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Napaka pri povezavi vozlišča, ponovitev</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Napaka pri polnem vozlišču. Msg: %1$s</string>
     <string name="error_payment_amount_title">Razlika v prejetem znesku</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Dobili smo plačilo, vendar ni bilo mogoče najti nobene zahteve</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s je za zdaj onemogočen zaradi težav z omrežjem ali likvidnostjo</string>
 
 </resources>

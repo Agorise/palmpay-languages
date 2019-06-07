@@ -158,7 +158,6 @@
     <string name="dismiss">አሰናብት</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">ክፍያ ተረጋግጧል!</string>
     <string name="button__view_transactions">ግብይቶችን ይመልከቱ</string>
     <string name="template__received">ተቀብሏል: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">PDF ማዘጋጀት አልተቻለም. እባክህ እንደገና ሞክር. ስህተት: %1$s</string>
     <string name="csv_generated_msg_s">CSV የፈጠራ እና ተቀምጧል: %1$s</string>
     <string name="csv_generated_msg_error_s">ሲ ኤስቪ ማመንጨት አልተቻለም. እባክህ እንደገና ሞክር. ስህተት: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">ያልተፈቀዱ ግብይቶች eReceipt አይገኝም</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">ለምዝገባ መውጣቶች eReceipt አይገኝም</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">የማጣሪያ አማራጮች</string>
     <string name="all">ሁሉም</string>
     <string name="sent">ተልኳል</string>
     <string name="received">ደርሷል</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">የአሁኑ የፒን ቁጥር</string>
     <string name="please_enter_old_pin">እባክዎ የድሮውን ፒን ቁጥር ያስገቡ</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">የመስመር አገናኝ ስህተት, እንደገና በመሞከር ላይ</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">ከሙሉ ምስራች ስህተት. Msg: %1$s</string>
     <string name="error_payment_amount_title">የተቀበለ የገንዘብ መጠን ልዩነት</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">ገቢ ገቢ አግኝተናል, ነገር ግን ምንም ጥያቄ አልተገኘም</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">አሁን %1$s በአውታረመረብ ወይም በንጹህነት ችግሮች የተነሳ ተሰናክሏል</string>
 
 </resources>

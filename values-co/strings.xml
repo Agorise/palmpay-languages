@@ -158,7 +158,6 @@
     <string name="dismiss">Caccia</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Pagamentu cunfirmata!</string>
     <string name="button__view_transactions">Vede Transacciones</string>
     <string name="template__received">Received: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Ùn pudere generà pdf. Ripaciate. Errore: %1$s</string>
     <string name="csv_generated_msg_s">Crescenu e salvatu CSV: %1$s</string>
     <string name="csv_generated_msg_error_s">Unable di generà csv. Ripaciate. Errore: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipe ùn hè micca dispunibile per e transazzioni non realizate</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipe ùn hè micca dispunibile per e transazzioni in uscita</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Opzioni di filtru</string>
     <string name="all">Tutti</string>
     <string name="sent">Mandatu</string>
     <string name="received">Received</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">U numicu PIN actuale</string>
     <string name="please_enter_old_pin">Per piacè entre numinariu PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Errore di cunnessione di nodes, retentule</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Errore di u node. Msg: %1$s</string>
     <string name="error_payment_amount_title">A discrepanzia di u cantu ricivutu</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Avemu un pagamentu ingressu, ma ùn puderebbenu esse dumanda</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s hè statu discuplicatu per ora per prublemi di rete o di liquidità</string>
 
 </resources>

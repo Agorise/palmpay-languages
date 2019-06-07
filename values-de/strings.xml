@@ -158,7 +158,6 @@
     <string name="dismiss">Entlassen</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Bezahlung bestätigt!</string>
     <string name="button__view_transactions">Transaktionen anzeigen</string>
     <string name="template__received">Erhalten: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">PDF kann nicht erstellt werden. Bitte erneut versuchen! Fehler: %1$s</string>
     <string name="csv_generated_msg_s">CSV generiert und gespeichert: %1$s</string>
     <string name="csv_generated_msg_error_s">Kann csv nicht erzeugen. Bitte erneut versuchen! Fehler: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt für unerfüllte Transaktionen nicht verfügbar</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt für ausgehende Transaktionen nicht verfügbar</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filteroptionen</string>
     <string name="all">Alle</string>
     <string name="sent">Gesendet</string>
     <string name="received">Empfangen</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Aktuelle PIN-Nummer</string>
     <string name="please_enter_old_pin">Bitte geben Sie die alte PIN-Nummer ein</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Verbindungsknoten Fehler, erneuter Versuch</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Fehler vom vollen Knoten. Msg: %1$s</string>
     <string name="error_payment_amount_title">Erhaltene Abweichung des Betrags</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Wir haben eine eingehende Zahlung erhalten, es konnte jedoch keine Anfrage gefunden werden</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s wurde vorerst aufgrund von Netzwerk- oder Liquiditätsproblemen deaktiviert</string>
 
 </resources>

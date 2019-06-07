@@ -158,7 +158,6 @@
     <string name="dismiss">ප්රතික්ෂේප කරන්න</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">ගෙවීම් තහවුරු කර ඇත!</string>
     <string name="button__view_transactions">ගනුදෙනුව බලන්න</string>
     <string name="template__received">ලැබුණු: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Pdf ජනනය කළ නොහැක. කරුණාකර නැවත උත්සාහ කරන්න. දෝෂය: %1$s</string>
     <string name="csv_generated_msg_s">CSV උත්පාදනය කර ඉතිරි කර ඇත: %1$s</string>
     <string name="csv_generated_msg_error_s">Csv උත්පාදනය කළ නොහැක. කරුණාකර නැවත උත්සාහ කරන්න. දෝෂය: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">නොලැබුනු ගනුදෙනු සඳහා eReceipt නොලැබේ</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">පිටතට යන ගනුදෙනු සඳහා eReceipt නොපවතී</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">පෙරහන් විකල්පයන්</string>
     <string name="all">සියලු</string>
     <string name="sent">යැවූ සේක</string>
     <string name="received">ලැබුණි</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">වත්මන් PIN අංකය</string>
     <string name="please_enter_old_pin">කරුණාකර පැරණි PIN අංකය ඇතුලත් කරන්න</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Node සම්බන්ධතා දෝශයකි, නැවත උත්සහ කිරීම</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">සම්පූර්ණ නෝඩයේ දෝෂයකි. Msg: %1$s</string>
     <string name="error_payment_amount_title">ලැබුණු ප්රමාණය විෂමතාව</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">අපට ලැබෙන ගෙවීමක් ලැබී ඇත, නමුත් කිසිදු ඉල්ලීමක් සොයාගත නොහැකි විය</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">ජාලය හෝ ද්රවශීලතා ගැටළු හේතුවෙන් %1$s දැන් අක්රිය කර ඇත</string>
 
 </resources>

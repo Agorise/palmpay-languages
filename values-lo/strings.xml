@@ -158,7 +158,6 @@
     <string name="dismiss">ຍົກເລີກ</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Payment confirmed!</string>
     <string name="button__view_transactions">View Transactions</string>
     <string name="template__received">ໄດ້ຮັບ: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">ບໍ່ສາມາດສ້າງ PDF ໄດ້. ກະລຸນາລອງໃຫມ່. ຂໍ້ຜິດພາດ: %1$s</string>
     <string name="csv_generated_msg_s">CSV ສ້າງແລະບັນທຶກ: %1$s</string>
     <string name="csv_generated_msg_error_s">ບໍ່ສາມາດສ້າງ csv. ກະລຸນາລອງໃຫມ່. ຂໍ້ຜິດພາດ: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt ບໍ່ສາມາດໃຊ້ໄດ້ສໍາລັບການເຮັດທຸລະກໍາບໍ່ຄົບຖ້ວນ</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt ບໍ່ສາມາດໃຊ້ໄດ້ສໍາລັບການເຮັດທຸລະກໍາລາຍຈ່າຍ</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">ຕົວເລືອກການກັ່ນຕອງ</string>
     <string name="all">ທັງຫມົດ</string>
     <string name="sent">ຖືກສົ່ງໄປແລ້ວ</string>
     <string name="received">ໄດ້ຮັບ</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">ຫມາຍເລກ PIN ປະຈຸບັນ</string>
     <string name="please_enter_old_pin">ກະລຸນາໃສ່ຫມາຍເລກ PIN ເກົ່າ</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">ຂໍ້ຜິດພາດການເຊື່ອມຕໍ່ Node, ການທົດລອງໃຫມ່</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">ຂໍ້ຜິດພະລາດຈາກໂຫນດເຕັມ Msg: %1$s</string>
     <string name="error_payment_amount_title">ຄວາມແຕກຕ່າງຂອງຈໍານວນເງິນທີ່ໄດ້ຮັບ</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">ພວກເຮົາໄດ້ຮັບການຈ່າຍເງິນເຂົ້າ, ແຕ່ບໍ່ມີຄໍາຮ້ອງຂໍທີ່ບໍ່ມີ</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s ໄດ້ຖືກປິດການໃຊ້ງານໃນປັດຈຸບັນເນື່ອງຈາກບັນຫາເຄືອຂ່າຍຫຼືບັນຫາເງິນສົດ</string>
 
 </resources>

@@ -158,7 +158,6 @@
     <string name="dismiss">Siyani</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Malipiro amatsimikiziridwa!</string>
     <string name="button__view_transactions">Onani Zogulitsa</string>
     <string name="template__received">Zilandiridwa: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Simungathe kupanga pdf. Chonde yesetsani. Cholakwika: %1$s</string>
     <string name="csv_generated_msg_s">CSV inapanga ndi kupulumutsa: %1$s</string>
     <string name="csv_generated_msg_error_s">Simungathe kupanga csv. Chonde yesetsani. Cholakwika: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">EReceipt sichipezeka chifukwa cha ntchito zosakwaniritsidwe</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">EReceipt siyikupezeka pa zochitika zotuluka</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Zosakaniza Zosaka</string>
     <string name="all">Zonse</string>
     <string name="sent">Kutumizidwa</string>
     <string name="received">Zalandiridwa</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Nambala yeniyeni ya PIN</string>
     <string name="please_enter_old_pin">Chonde lowetsani nambala yakale ya PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Cholakwika cha kugwirizana, kuyesanso</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Cholakwika pa node yonse. Msg: %1$s</string>
     <string name="error_payment_amount_title">Wopeza kuchuluka kwazosiyana</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Tili ndi malipiro am\'tsogolo, koma palibe pempho lomwe lingapezeke</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">___S__ yalepheretsedwa pakalipano chifukwa cha zokhudzana ndi magetsi</string>
 
 </resources>

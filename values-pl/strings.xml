@@ -158,7 +158,6 @@
     <string name="dismiss">Oddalić</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Płatność potwierdzona!</string>
     <string name="button__view_transactions">Wyświetl transakcje</string>
     <string name="template__received">Otrzymano: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Nie można wygenerować pliku pdf. Spróbuj ponownie. Błąd: %1$s</string>
     <string name="csv_generated_msg_s">Wygenerowane i zapisane pliki CSV: %1$s</string>
     <string name="csv_generated_msg_error_s">Nie można wygenerować pliku CSV. Spróbuj ponownie. Błąd: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt nie jest dostępny w przypadku niespełnionych transakcji</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt nie jest dostępny dla transakcji wychodzących</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Opcje filtrów</string>
     <string name="all">Wszystko</string>
     <string name="sent">Wysłane</string>
     <string name="received">Odebrane</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Aktualny numer PIN</string>
     <string name="please_enter_old_pin">Podaj stary numer PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Błąd połączenia węzła, ponawianie próby</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Błąd od pełnego węzła. Msg: %1$s</string>
     <string name="error_payment_amount_title">Różnica w odbieranych kwotach</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Dostaliśmy płatność, ale nie można znaleźć żądania</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s został wyłączony z powodu problemów z siecią lub płynnością</string>
 
 </resources>

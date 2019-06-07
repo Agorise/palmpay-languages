@@ -157,7 +157,6 @@
     <string name="dismiss">Huwag pansinin</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Nakumpirma ang kabayaran!</string>
     <string name="button__view_transactions">Tingnan ang Mga Transaksyon</string>
     <string name="template__received">Natanggap: %1$s</string>
 
@@ -300,8 +299,11 @@
     <string name="pdf_generated_msg_error_s">Hindi makagawa ng pdf. Mangyaring muling subukan. Error: %1$s</string>
     <string name="csv_generated_msg_s">Nilikha at na-save ang CSV: %1$s</string>
     <string name="csv_generated_msg_error_s">Hindi makalikha ng csv. Mangyaring muling subukan. Error: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">Hindi magagamit ang eReceipt para sa mga hindi pa natanggap na transaksyon</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">Hindi magagamit ang eReceipt para sa mga papalabas na transaksyon</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Mga Pagpipilian sa Filter</string>
     <string name="all">Lahat</string>
     <string name="sent">Naipadala</string>
     <string name="received">Natanggap</string>
@@ -353,9 +355,6 @@
     <string name="txt_current_pin">Kasalukuyang numero ng PIN</string>
     <string name="please_enter_old_pin">Mangyaring magpasok ng lumang PIN number</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Error sa koneksyon ng node, muling pagsusulit</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Error mula sa buong node. Msg: %1$s</string>
     <string name="error_payment_amount_title">Natanggap ang pagkakaiba ng halaga</string>
@@ -363,5 +362,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Nakuha namin ang isang papasok na pagbabayad, ngunit walang kahilingan ang maaaring matagpuan</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">Ang %1$s ay hindi pinagana ngayon dahil sa mga isyu sa network o pagkatubig</string>
 
 </resources>

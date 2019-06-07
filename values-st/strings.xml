@@ -158,7 +158,6 @@
     <string name="dismiss">Tlosa</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Puseletso e tiisitsoe!</string>
     <string name="button__view_transactions">Sheba Litšebetso</string>
     <string name="template__received">E amohetse: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Ha e khone ho hlahisa pdf. Ka kopo leka hape. Phoso: %1$s</string>
     <string name="csv_generated_msg_s">CSV e hlahisitse mme e bolokehile: %1$s</string>
     <string name="csv_generated_msg_error_s">Ha e khone ho hlahisa csv. Ka kopo leka hape. Phoso: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt ha e fumanehe bakeng sa likarabo tse sa phethahaleng</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt ha e fumanehe bakeng sa ditjhelete tse hlahang</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Khetho ea Filter</string>
     <string name="all">Kaofela</string>
     <string name="sent">E rometsoe</string>
     <string name="received">Re amohetse</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Nomoro ea PIN ea hona joale</string>
     <string name="please_enter_old_pin">Ka kopo kenya nomoro ea PIN ea khale</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Nkosahano ea khokahanyo, ho leka hape</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Phoso ho tloha node e feletseng. Mog: %1$s</string>
     <string name="error_payment_amount_title">E fumanoe e le phapang</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Re na le tefo e tlang, empa ha ho kopo e ka fumanoang</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s e se e holofalitsoe hona joale ka lebaka la mathata a marang-rang</string>
 
 </resources>

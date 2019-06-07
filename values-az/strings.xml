@@ -158,7 +158,6 @@
     <string name="dismiss">Çıxarın</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Ödəmə təsdiqləndi!</string>
     <string name="button__view_transactions">Əməliyyatlara baxın</string>
     <string name="template__received">Alındı: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Pdf yaratmaq mümkün deyil. Yenidən sınayın. Səhv: %1$s</string>
     <string name="csv_generated_msg_s">CSV yaradılıb və saxlanılır: %1$s</string>
     <string name="csv_generated_msg_error_s">CSV yarada bilmir. Yenidən sınayın. Səhv: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt yerinə yetirilməmiş əməliyyatlar üçün mümkün deyil</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt gedən əməliyyatlar üçün mümkün deyil</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Filtre Seçenekleri</string>
     <string name="all">Bütün</string>
     <string name="sent">Göndərildi</string>
     <string name="received">Alındı</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Cari pin nömrəsi</string>
     <string name="please_enter_old_pin">Köhnə PIN nömrəsini daxil edin</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Node bağlantı hatası, yeniden deneme</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Tam nöqtədən gələn səhv. Msg: %1$s</string>
     <string name="error_payment_amount_title">Məbləğ uyğunsuzluğu</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Daxil olan bir ödəniş aldıq, amma heç bir tələb tapılmadı</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">Şəbəkə və ya likvidlik məsələləri səbəbindən %1$s artıq əlil olmuşdur</string>
 
 </resources>

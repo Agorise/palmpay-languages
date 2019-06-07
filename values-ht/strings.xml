@@ -158,7 +158,6 @@
     <string name="dismiss">Dechè</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Peman konfime!</string>
     <string name="button__view_transactions">Gade tranzaksyon</string>
     <string name="template__received">Resevwa: %1$s</string>
 
@@ -301,8 +300,11 @@
     <string name="pdf_generated_msg_error_s">Kapab jenere pdf. Tanpri retry. Erè: %1$s</string>
     <string name="csv_generated_msg_s">CSV pwodwi ak sove: %1$s</string>
     <string name="csv_generated_msg_error_s">Kapab jenere CSV. Tanpri retry. Erè: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt pa disponib pou tranzaksyon ki pa satisfè</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt pa disponib pou tranzaksyon sortan</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Opsyon Filter</string>
     <string name="all">Tout</string>
     <string name="sent">Voye</string>
     <string name="received">Resevwa</string>
@@ -354,9 +356,6 @@
     <string name="txt_current_pin">Nimewo PIN aktyèl la</string>
     <string name="please_enter_old_pin">Tanpri antre nimewo PIN fin vye granmoun</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Erè koneksyon ne, retrying</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Erè soti nan ne ne. Msg: %1$s</string>
     <string name="error_payment_amount_title">Resevwa kantite lajan erè</string>
@@ -364,5 +363,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Nou te resevwa yon peman fèk ap rantre, men yo pa ka jwenn okenn demann</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s te enfim pou kounye a akòz pwoblèm rezo oswa lajan likid sikile</string>
 
 </resources>
