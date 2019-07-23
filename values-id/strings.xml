@@ -32,7 +32,7 @@
     <string name="create_account_title">Membuat akun baru</string>
     <string name="create_account_message">Harap tunggu sementara akun Anda dibuat</string>
     <string name="error_faucet_explanation">Server mengembalikan kesalahan. Ini mungkin karena batasan yang sengaja dibuat untuk melarang permintaan yang sering datang dari alamat IP yang sama dalam waktu singkat. Harap tunggu 5 menit dan coba lagi, atau beralih ke jaringan yang berbeda, Misalnya dari wifi ke sel.</string>
-    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Harap pastikan Anda membuat cadangan kunci otak Anda sebelum melanjutkan. Ini akan memungkinkan Anda memulihkan akun Anda jika terjadi sesuatu pada perangkat ini.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Harap pastikan Anda membuat cadangan brainkey Anda sebelum melanjutkan. Ini akan memungkinkan Anda memulihkan akun Anda jika terjadi sesuatu pada perangkat ini.</string>
 
     <!-- Existing Account Fragment -->
     <string name="how_import_account">Bagaimana Anda ingin mengimpor akun yang ada?</string>
@@ -47,13 +47,13 @@
     <string name="please_enter_6_digit_pin">Harap masukkan PIN 6 digit</string>
     <string name="please_enter_6_digit_pin_confirm">Silakan masukkan konfirmasi nomor PIN Anda</string>
     <string name="mismatch_pin">Mismatch pin</string>
-    <string name="please_enter_brainkey">Silakan masukkan otak otak</string>
-    <string name="please_enter_correct_brainkey">Harap masukkan otak yang benar, itu harus antara 12 dan 16 kata.</string>
+    <string name="please_enter_brainkey">Silakan masukkan brainkey</string>
+    <string name="please_enter_correct_brainkey">Harap masukkan brainkey yang benar, itu harus antara 12 dan 16 kata.</string>
     <string name="unable_to_load_brainkey">Tidak dapat memuat brainkey</string>
     <string name="account_already_exist">Akun telah ada</string>
     <string name="importing_your_wallet">Mengimpor dompet Anda…</string>
     <string name="account_candidates_title">Silakan pilih akun</string>
-    <string name="account_candidates_content">Kunci yang berasal dari kunci otak ini tampaknya digunakan untuk mengendalikan lebih dari satu akun, pilih akun mana yang ingin Anda impor</string>
+    <string name="account_candidates_content">Kunci yang berasal dari brainkey ini tampaknya digunakan untuk mengendalikan lebih dari satu akun, pilih akun mana yang ingin Anda impor</string>
 
     <!-- Import Backup Activity -->
     <string name="import_bin_file">Impor file .bin</string>
@@ -70,8 +70,8 @@
     <string name="pin_number_request">Harap masukkan nomor pin yang digunakan untuk menyandikan file cadangan ini</string>
     <string name="pin_number_warning">Nomor pin minimal harus 6 digit</string>
     <string name="backup_error_no_key_reference_found">Tidak ada akun yang menggunakan kunci ini ditemukan, pastikan Anda menggunakan file cadangan yang diperbarui.</string>
-    <string name="backup_error_no_wallet_backup">Tidak ada cadangan dompet yang dapat ditemukan di file ini</string>
-    <string name="error_invalid_account">Akun tidak valid, periksa kunci otak Anda untuk kesalahan pengetikan</string>
+    <string name="backup_error_no_wallet_backup">Tidak ada dompet cadangan yang dapat ditemukan di file ini</string>
+    <string name="error_invalid_account">Akun tidak valid, periksa brainkey Anda untuk kesalahan pengetikan</string>
 
     <!-- Setup Process -->
     <string name="txt_import">Impor</string>
@@ -119,12 +119,12 @@
     <string name="error__too_big_fiat_amount">Maaf, tapi pasar belum sebesar itu. Silakan masukkan nilai yang lebih kecil.</string>
 
     <!-- QR Code Activity -->
-    <string name="txt_please_pay">Tolong bayar</string>
+    <string name="txt_please_pay">Silakan bayar</string>
     <string name="please_pay_s_s">Silakan Bayar: %1$s %2$s</string>
     <string name="to_s">Kepada: %1$s</string>
     <string name="txt_network">Biaya jaringan</string>
     <string name="txt_please_wait">Mohon tunggu</string>
-    <string name="error_node_unreachable">Tidak ada simpul yang bisa dijangkau</string>
+    <string name="error_node_unreachable">Tidak ada node yang bisa dijangkau</string>
     <string name="invoice_subject">Faktur PalmPay dari %1$s</string>
     <string name="memo_warning">CATATAN: Bidang memo harus benar-benar cocok dengan pembayaran Anda dengan permintaan pedagang.</string>
     <string name="before_s">Sebelum: %1$s</string>
@@ -146,7 +146,7 @@
     <string name="template_tx_progress">Menunggu konfirmasi jaringan lainnya. %1$d / %2$s</string>
     <string name="msg__step_payment_received_done">Cukup konfirmasi yang diterima</string>
     <string name="title__step_payment_confirmed">Pembayaran dikonfirmasi</string>
-    <string name="msg__step_payment_confirmed">Output transaksi ke pedagang dan duta besar dimulai</string>
+    <string name="msg__step_payment_confirmed">Output transaksi ke pedagang dan ambasador dimulai</string>
     <string name="msg__step_payment_confirmed_done">Pemrosesan pembayaran selesai</string>
     <string name="error_estimate_input_content_template">Galat saat mencoba memperkirakan jumlah input. \n \n Kesalahan dari penyedia jembatan: \n \n %1$s</string>
     <string name="error_payment_processing_content">Terjadi kesalahan saat memproses permintaan Anda.</string>
@@ -186,8 +186,8 @@
     <string name="one_minute">1 menit</string>
     <string name="three_minutes">3 menit</string>
     <string name="five_minutes">5 menit</string>
-    <string name="local_ambassador">Duta Besar Lokal</string>
-    <string name="ambassador_info">PalmPay Ambassadors dibayar setiap 3 detik. Tugas mereka adalah mendukung pedagang PalmPay lokal dan mengatur Pertemuan Crypto bulanan. Jika kota Anda tidak terdaftar, maka kota Anda belum memiliki Duta PalmPay. \n \nUntuk info lebih lanjut, kunjungi komunitas Agorise di Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
+    <string name="local_ambassador">Ambasador Lokal</string>
+    <string name="ambassador_info">PalmPay Ambassadors dibayar setiap 3 detik. Tugas mereka adalah mendukung pedagang PalmPay lokal dan mengatur Pertemuan Crypto bulanan. Jika kota Anda tidak terdaftar, maka kota Anda belum memiliki Ambasador PalmPay. \n \nUntuk info lebih lanjut, kunjungi komunitas Agorise di Telegram: \n <a href="http://t.me/Agorise">http://t.me/Agorise</a></string>
     <string name="city">Kota</string>
     <string name="country">Negara</string>
     <string name="bugs_or_ideas">Bug atau Ide?</string>
@@ -254,7 +254,7 @@
     <string name="view_and_copy"><![CDATA[Lihat & Salin]]></string>
     <string name="title_bin_backup">Ekspor .bin cadangan</string>
     <string name="hint_password">Kata sandi</string>
-    <string name="hint_password_confirmation">konfirmasi kata kunci</string>
+    <string name="hint_password_confirmation">konfirmasi kata sandi</string>
     <string name="error_password_mandatory">Harus memasukkan kata sandi</string>
     <string name="error_password_too_short">Kata sandi terlalu pendek</string>
     <string name="error_password_confirmation_mismatch">Sandi dan ketidakcocokan konfirmasi</string>
@@ -331,7 +331,7 @@
     <string name="memo">Memo</string>
     <string name="date">Tanggal</string>
     <string name="time">Waktu</string>
-    <string name="crypto_amount">Crypto Amount</string>
+    <string name="crypto_amount">Jumlah Crypto</string>
     <string name="crypto_symbol">Simbol Kripto</string>
     <string name="keyed_in_fiat_amount">Jumlah Fiat Berperingkat</string>
     <string name="total_fiat_amount">Jumlah Fiat Total</string>
