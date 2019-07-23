@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Σφάλμα βιβλίου παραγγελιών</string>
     <string name="content_error_market">Δεν υπάρχουν εντολές στο DEX που θα μας επέτρεπαν να πραγματοποιήσουμε την ανταλλαγή στο %1$s αυτή τη στιγμή. \n \nΠαρακαλώ πηγαίνετε στην οθόνη ρυθμίσεων και επιλέξτε ένα διαφορετικό στοιχείο παραγωγής.</string>
+    <string name="title__exchange_rate_error">Σφάλμα συναλλαγματικής ισοτιμίας</string>
+    <string name="msg__exchange_rate_error">Λυπούμαστε, αλλά το δίκτυο δεν παρέχει τις κατάλληλες εμπορικές πληροφορίες αυτή τη στιγμή. Χρησιμοποιήστε ένα διαφορετικό νόμισμα ή δοκιμάστε ξανά αργότερα.</string>
+    <string name="error__too_big_fiat_amount">Συγνώμη, αλλά η αγορά δεν είναι τόσο μεγάλη ακόμα. Εισαγάγετε μια μικρότερη τιμή.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Παρακαλώ πληρώστε</string>

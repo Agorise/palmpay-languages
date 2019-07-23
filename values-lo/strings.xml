@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">ຄໍາສັ່ງປື້ມຄໍາສັ່ງ</string>
     <string name="content_error_market">ບໍ່ມີຄໍາສັ່ງໃນ DEX ທີ່ຈະອະນຸຍາດໃຫ້ພວກເຮົາປະຕິບັດການແລກປ່ຽນກັບ %1$s ໃນປັດຈຸບັນ. \n \n ໂປດໄປທີ່ຫນ້າຈໍການຕັ້ງຄ່າແລະເລືອກສິນຊັບຜົນຜະລິດທີ່ແຕກຕ່າງກັນ.</string>
+    <string name="title__exchange_rate_error">ອັດຕາແລກປ່ຽນອັດຕາ</string>
+    <string name="msg__exchange_rate_error">ຂໍອະໄພ, ແຕ່ເຄືອຂ່າຍບໍ່ໃຫ້ຂໍ້ມູນການຄ້າທີ່ເຫມາະສົມໃນປັດຈຸບັນ. ກະລຸນາໃຊ້ຫຼຽນທີ່ແຕກຕ່າງກັນ, ຫຼືພະຍາຍາມອີກເທື່ອຫນຶ່ງ.</string>
+    <string name="error__too_big_fiat_amount">ຂໍອະໄພ, ແຕ່ຕະຫຼາດບໍ່ແມ່ນໃຫຍ່ທີ່ສຸດ. ກະລຸນາໃສ່ຄ່ານ້ອຍກວ່າ.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">ກະລຸນາຈ່າຍ</string>

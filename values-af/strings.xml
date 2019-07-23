@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Orderboek fout</string>
     <string name="content_error_market">Daar is geen bestellings in die DEX wat ons in staat stel om die uitruil na %1$s op die oomblik uit te voer nie. \n \nPlease gaan na die instellings skerm en kies \'n ander uitvoer bate.</string>
+    <string name="title__exchange_rate_error">Wisselkoers fout</string>
+    <string name="msg__exchange_rate_error">Jammer, maar die netwerk bied tans nie die korrekte handelsinligting nie. Gebruik asseblief \'n ander muntstuk, of probeer later weer.</string>
+    <string name="error__too_big_fiat_amount">Jammer, maar die mark is nog nie so groot nie. Voer asseblief \'n kleiner waarde in.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Betaal asseblief</string>

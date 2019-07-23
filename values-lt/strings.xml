@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Užsisakykite knygos klaidą</string>
     <string name="content_error_market">DEX nėra užsakymų, kurie leistų mums atlikti mainus %1$s metu. \n \nPrašome pereiti prie nustatymų ekrano ir pasirinkti kitą išėjimo turtą.</string>
+    <string name="title__exchange_rate_error">Valiutos kurso klaida</string>
+    <string name="msg__exchange_rate_error">Atsiprašome, bet tinklas šiuo metu neteikia tinkamos prekybos informacijos. Naudokite kitą monetą arba bandykite dar kartą vėliau.</string>
+    <string name="error__too_big_fiat_amount">Atsiprašome, bet rinka dar nėra tokia didelė. Įveskite mažesnę vertę.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Prašau sumokėti</string>

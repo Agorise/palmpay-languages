@@ -114,6 +114,9 @@
     <string name="nine">IX</string>
     <string name="title_error_market">Liber errore Ordinis</string>
     <string name="content_error_market">Nulla ordinum excambium facere liceret nobis DEX %1$s ibidem. \n \nPlease ad screen et eligere diversis occasus output dignissim.</string>
+    <string name="title__exchange_rate_error">Error rate commutationem</string>
+    <string name="msg__exchange_rate_error">Nos paenitet, sed non modo ex propriis network notitia in momentum commercia. Quaeso uti a diversis denarium superesse paterentur, vel Mox iterum conare.</string>
+    <string name="error__too_big_fiat_amount">Nos paenitet, sed in foro est adhuc non magnum. PDF minoris pretii.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">placere</string>

@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Error en order book</string>
     <string name="content_error_market">No hay órdenes en el DEX que nos permitan realizar el intercambio a %1$s en este momento.\n\nPor favor ve a la pantalla de configuración y selecciona un activo de salida diferente.</string>
+    <string name="title__exchange_rate_error">Error de tipo de cambio</string>
+    <string name="msg__exchange_rate_error">Lo sentimos, pero la red no proporciona la información comercial adecuada en este momento. Por favor, usa una moneda diferente, o intenta de nuevo más tarde.</string>
+    <string name="error__too_big_fiat_amount">Lo sentimos, pero el mercado aún no es tan grande. Por favor, introduce un valor más pequeño.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Por favor pagar</string>

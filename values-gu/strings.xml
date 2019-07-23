@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">ઑર્ડર બુક ભૂલ</string>
     <string name="content_error_market">ડીએક્સમાં કોઈ ઓર્ડર નથી જે આપણને આ ક્ષણે %1$s ના વિનિમય માટે પરવાનગી આપશે. \n \n કૃપા કરી સેટિંગ્સ સ્ક્રીન પર જાઓ અને એક અલગ આઉટપુટ એસેટ પસંદ કરો.</string>
+    <string name="title__exchange_rate_error">એક્સચેન્જ દર ભૂલ</string>
+    <string name="msg__exchange_rate_error">માફ કરશો, પરંતુ આ ક્ષણે નેટવર્ક યોગ્ય વેપાર માહિતી પ્રદાન કરતું નથી. કૃપા કરીને કોઈ અલગ સિક્કોનો ઉપયોગ કરો અથવા પછીથી ફરી પ્રયાસ કરો.</string>
+    <string name="error__too_big_fiat_amount">માફ કરશો, પરંતુ બજાર હજુ સુધી તે મોટું નથી. કૃપા કરીને એક નાનું મૂલ્ય દાખલ કરો.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">મહેરબાની કરીને ચૂકવો</string>

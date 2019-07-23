@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">න්යාය පොත දෝෂයකි</string>
     <string name="content_error_market">මේ මොහොතේ %1$s වෙත හුවමාරු කිරීම සඳහා DEX හි ඇණවුම් නොමැත. \n \n කරුණාකර සැකසුම් තිරයට යන්න සහ වෙනත් නිමැවුම් වත්කමක් තෝරා ගන්න.</string>
+    <string name="title__exchange_rate_error">විනිමය අනුපාත දෝෂයකි</string>
+    <string name="msg__exchange_rate_error">කණගාටුයි, නමුත් ජාලය මේ වන විට නිසි වෙළඳ තොරතුරු සපයන්නේ නැත. කරුණාකර වෙනත් කාසියක් භාවිතා කරන්න, නැතහොත් පසුව නැවත උත්සාහ කරන්න.</string>
+    <string name="error__too_big_fiat_amount">කණගාටුයි, නමුත් වෙළඳපොළ තවමත් එතරම් විශාල නැත. කරුණාකර කුඩා අගයක් ඇතුළත් කරන්න.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">කරුණාකර ගෙවන්න</string>

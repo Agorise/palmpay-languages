@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">შეუკვეთეთ წიგნის შეცდომა</string>
     <string name="content_error_market">DEX- ში არავითარი ბრძანება არ არის, რომელიც საშუალებას მოგვცემს, რომ შევცვალოთ გაცვლითი %1$s- ზე. \n \nPlease გადადით პარამეტრების ეკრანზე და აირჩიეთ გამომავალი აქტივი.</string>
+    <string name="title__exchange_rate_error">გაცვლითი კურსის შეცდომა</string>
+    <string name="msg__exchange_rate_error">უკაცრავად, მაგრამ ქსელი არ უზრუნველყოფს შესაბამისი სავაჭრო ინფორმაციის მომენტში. გთხოვთ, გამოიყენოთ სხვა მონეტა ან მოგვიანებით სცადოთ.</string>
+    <string name="error__too_big_fiat_amount">უკაცრავად, მაგრამ ბაზარი არ არის, რომ დიდი ჯერ. გთხოვთ, შეიყვანოთ მცირე მნიშვნელობა.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">გთხოვთ გადაიხადოთ</string>

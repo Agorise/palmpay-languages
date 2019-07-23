@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Kitabın səhvini sifariş et</string>
     <string name="content_error_market">DEX-də %1$s-ə qədər mübadiləni yerinə yetirməyə imkan verəcək sifariş yoxdur. \n \nParametrlər ekranına gedin və fərqli bir çıxış variantı seçin.</string>
+    <string name="title__exchange_rate_error">Valyuta məzənnəsi</string>
+    <string name="msg__exchange_rate_error">Bağışlayın, ancaq şəbəkə hazırda ticarət məlumatlarını təmin etmir. Müxtəlif bir sikkə istifadə edin və ya daha sonra yenidən cəhd edin.</string>
+    <string name="error__too_big_fiat_amount">Bağışlayın, amma bazar hələ böyük deyil. Xahiş edirik daha kiçik bir dəyər daxil edin.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Paylayın</string>

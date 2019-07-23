@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">የትዕዛዝ መጽሐፍ ስህተት</string>
     <string name="content_error_market">በአሁኑ ጊዜ ልውውጥ በ %1$s እንድናከናውን በሚፈቅደው DEX ውስጥ ምንም ትዕዛዞች የሉም.     እባክዎን ወደ የቅንጅቶች ማያ ገጽ ይሂዱ እና የተለየ የውጤት ንብረት ይምረጡ.</string>
+    <string name="title__exchange_rate_error">የልውውጥ ስህተት</string>
+    <string name="msg__exchange_rate_error">ይቅርታ, ነገር ግን አውታረ መረቡ በአሁኑ ጊዜ ትክክለኛውን የንግድ መረጃ አያቀርብም. እባክህ የተለየ ሳንቲም ተጠቀም, ወይም ቆይተህ እንደገና ሞክር.</string>
+    <string name="error__too_big_fiat_amount">ይቅርታ, ግን ገበያው ትልቅ አይደለም. እባክዎ ትንሽ እሴት ያስገቡ.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">እባክዎን ይክፈሉ</string>

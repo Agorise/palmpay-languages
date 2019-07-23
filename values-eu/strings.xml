@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Orden liburua</string>
     <string name="content_error_market">Ez dago aginduak DEX-en, une honetan %1$s truke egitea baimentzen baitute. \n \nJarraitu ezarpenen pantailara eta hautatu beste irteera aktibo bat.</string>
+    <string name="title__exchange_rate_error">Truke tasaren errorea</string>
+    <string name="msg__exchange_rate_error">Barkatu, baina sareak ez du une egokia merkataritza informazioa ematen. Erabil ezazu beste txanpon bat edo saiatu berriro geroago.</string>
+    <string name="error__too_big_fiat_amount">Barkatu, baina merkatua oraindik ez da hain handia. Mesedez, sartu balio txikiagoa.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Ordaindu ezazu</string>

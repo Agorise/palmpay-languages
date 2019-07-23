@@ -53,7 +53,7 @@
     <string name="account_already_exist">Il conto esiste già</string>
     <string name="importing_your_wallet">Importare il tuo wallet…</string>
     <string name="account_candidates_title">Si prega di selezionare un account</string>
-    <string name="account_candidates_content">I tasti derivati da questo Brainkey sembrano essere usati per controllare più di un account, selezionare quale account si desidera importare</string>
+    <string name="account_candidates_content">I tasti derivati ​​da questo Brainkey sembrano essere usati per controllare più di un account, selezionare quale account si desidera importare</string>
 
     <!-- Import Backup Activity -->
     <string name="import_bin_file">Importa file .bin</string>
@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Errore del book order</string>
     <string name="content_error_market">Non ci sono ordini nel DEX che ci permettano di eseguire lo scambio con %1$s al momento. \n \nVai alla schermata delle impostazioni e seleziona un altro asset di output.</string>
+    <string name="title__exchange_rate_error">Errore del tasso di cambio</string>
+    <string name="msg__exchange_rate_error">Ci dispiace, ma la rete non fornisce le informazioni commerciali corrette al momento. Si prega di utilizzare una moneta diversa, o riprovare più tardi.</string>
+    <string name="error__too_big_fiat_amount">Ci dispiace, ma il mercato non è ancora così grande. Si prega di inserire un valore inferiore.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Per favore paga</string>
@@ -158,7 +161,6 @@
     <string name="dismiss">Rifiutare</string>
 
     <!-- Payment Confirmed Dialog -->
-    <string name="title__payment_confirmed">Pagamento confermato!</string>
     <string name="button__view_transactions">Visualizza le transazioni</string>
     <string name="template__received">Ricevuto: %1$s</string>
 
@@ -301,8 +303,11 @@
     <string name="pdf_generated_msg_error_s">Impossibile generare pdf. Per favore riprova. Errore: %1$s</string>
     <string name="csv_generated_msg_s">CSV generato e salvato: %1$s</string>
     <string name="csv_generated_msg_error_s">Impossibile generare CSV. Per favore riprova. Errore: %1$s</string>
+    <string name="toast_unavailable_ereceipt_pending_payment_req">eReceipt non disponibile per transazioni non completate</string>
+    <string name="toast_unavailable_ereceipt_outgoing_tx">eReceipt non disponibile per le transazioni in uscita</string>
 
     <!-- Transactions Filter Options -->
+    <string name="title__filter_options">Opzioni di filtro</string>
     <string name="all">Tutti</string>
     <string name="sent">Inviato</string>
     <string name="received">Ricevuto</string>
@@ -354,9 +359,6 @@
     <string name="txt_current_pin">Numero PIN corrente</string>
     <string name="please_enter_old_pin">Si prega di inserire il vecchio numero PIN</string>
 
-    <!-- PalmPay Application -->
-    <string name="error_node_connectivity">Errore di connessione del nodo, riprovare</string>
-
     <!-- ConnectedActivity -->
     <string name="connected_activity_network_error_template">Errore dal nodo completo. Messaggio: %1$s</string>
     <string name="error_payment_amount_title">Ricevuta discrepanza di importo</string>
@@ -364,5 +366,8 @@
 
     <!-- Payment handler -->
     <string name="warning_incoming_payment_without_request">Abbiamo ricevuto un pagamento in entrata, ma non è stata trovata alcuna richiesta</string>
+
+    <!-- Application -->
+    <string name="msg__selected_coin_disabled">%1$s è stato disabilitato per ora a causa di problemi di rete o di liquidità</string>
 
 </resources>

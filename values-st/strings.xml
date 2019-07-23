@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Phoso ea buka ea litaelo</string>
     <string name="content_error_market">Ha ho litaelo ho DEX e neng e tla re lumella ho etsa phapanyetsano ho %1$s hona joale. \n \nKa e-ea ho skrine ea litlhophiso mme u khethe phapang e fapaneng ea thepa.</string>
+    <string name="title__exchange_rate_error">Phapanyetsano ea sekhahla</string>
+    <string name="msg__exchange_rate_error">Tšoarelo, empa marang-rang ha a fane ka boitsebiso bo nepahetseng ba khoebo ka nako eo. Ka kopo sebelisa chelete e fapaneng, kapa leka hape hamorao.</string>
+    <string name="error__too_big_fiat_amount">Ke masoabi, empa \'maraka ha o moholo hona joale. Ka kopo kenya phaello e nyenyane.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Ka kopo o lefe</string>

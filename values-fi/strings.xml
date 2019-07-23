@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Tilauskirjan virhe</string>
     <string name="content_error_market">DEX: ssä ei ole tilauksia, joiden avulla voimme tehdä vaihtoa %1$s: lle tällä hetkellä. \n \nVoit siirtyä asetusten näyttöön ja valita toisen tulostusmateriaalin.</string>
+    <string name="title__exchange_rate_error">Valuuttakurssivirhe</string>
+    <string name="msg__exchange_rate_error">Pahoittelemme, mutta verkosto ei tällä hetkellä tarjoa oikeaa kauppatietoa. Käytä toista kolikkoa tai yritä myöhemmin uudelleen.</string>
+    <string name="error__too_big_fiat_amount">Anteeksi, mutta markkinat eivät ole vielä niin suuria. Anna pienempi arvo.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Ole hyvä ja maksa</string>

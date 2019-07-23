@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Грешка во книгата за нарачка</string>
     <string name="content_error_market">Во DEX нема нарачки што ќе ни овозможат да ја извршиме размената на %1$s во моментот. \n \nВе молиме одете на екранот за нагодувања и одберете друго излезно средство.</string>
+    <string name="title__exchange_rate_error">Грешка на девизниот курс</string>
+    <string name="msg__exchange_rate_error">Се извинуваме, но мрежата не обезбедува соодветни трговски информации во моментот. Ве молиме користете друга монета, или обидете се повторно подоцна.</string>
+    <string name="error__too_big_fiat_amount">Жалам, но пазарот не е толку голем. Внесете помала вредност.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Ве молиме плати</string>

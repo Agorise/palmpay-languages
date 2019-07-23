@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Pogreška knjige narudžbe</string>
     <string name="content_error_market">U DEX-u nema naloga koji bi nam omogućili izvršavanje razmjene %1$s u ovom trenutku. \n \nOdmah idite na zaslon postavki i odaberite drugu izlaznu stavku.</string>
+    <string name="title__exchange_rate_error">Pogreška tečaja</string>
+    <string name="msg__exchange_rate_error">Žao nam je, ali mreža trenutno ne pruža odgovarajuće trgovinske podatke. Upotrijebite drugi novčić ili pokušajte ponovno kasnije.</string>
+    <string name="error__too_big_fiat_amount">Oprostite, ali tržište još nije tako veliko. Unesite manju vrijednost.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Molimo platite</string>

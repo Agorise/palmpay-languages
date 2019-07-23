@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Hitilafu ya kitabu cha Order</string>
     <string name="content_error_market">Hakuna amri katika DEX ambayo itaturuhusu tupate kubadilishana kwa %1$s kwa sasa. \n \nTafadhali kwenda skrini ya mipangilio na uchague pesa tofauti.</string>
+    <string name="title__exchange_rate_error">Hitilafu kiwango cha ubadilishaji</string>
+    <string name="msg__exchange_rate_error">Samahani, lakini mtandao hautoi taarifa sahihi za biashara kwa wakati huu. Tafadhali tumia sarafu tofauti, au jaribu tena baadaye.</string>
+    <string name="error__too_big_fiat_amount">Samahani, lakini soko sio kubwa bado. Tafadhali ingiza thamani ndogo.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Tafadhali kulipa</string>

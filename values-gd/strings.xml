@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Mearachd leabhraichean òrdugh</string>
     <string name="content_error_market">Chan eil òrduighean anns an DEX a leigeas leinn an iomlaid a dhèanamh gu %1$s aig an àm seo. \n \n Feuch gun tadhail thu air scrion na roghainnean agus tagh stòras toraidh eadar-dhealaichte.</string>
+    <string name="title__exchange_rate_error">Mearachd reata iomlaid</string>
+    <string name="msg__exchange_rate_error">Duilich ach chan eil an lìonra a ’toirt seachad am fiosrachadh malairt ceart aig an àm seo. Cleachd bonn eile, no feuch a-rithist nas fhaide air adhart.</string>
+    <string name="error__too_big_fiat_amount">Duilich, ach chan eil am margadh cho mòr sin fhathast. Cuir a-steach luach nas lugha.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Pàigh a-steach</string>

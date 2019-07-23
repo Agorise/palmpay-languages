@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">ಆರ್ಡರ್ ಪುಸ್ತಕ ದೋಷ</string>
     <string name="content_error_market">ಕ್ಷಣದಲ್ಲಿ %1$s ಗೆ ವಿನಿಮಯ ಮಾಡಲು ನಮಗೆ ಅವಕಾಶ ಮಾಡಿಕೊಡುವ DEX ನಲ್ಲಿ ಯಾವುದೇ ಆದೇಶಗಳಿಲ್ಲ. \n \nPlease ಸೆಟ್ಟಿಂಗ್ಸ್ ತೆರೆಗೆ ಹೋಗಿ ಮತ್ತು ಬೇರೆ ಔಟ್ಪುಟ್ ಆಸ್ತಿ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ.</string>
+    <string name="title__exchange_rate_error">ವಿನಿಮಯ ದರ ದೋಷ</string>
+    <string name="msg__exchange_rate_error">ಕ್ಷಮಿಸಿ, ಆದರೆ ನೆಟ್‌ವರ್ಕ್ ಈ ಸಮಯದಲ್ಲಿ ಸರಿಯಾದ ವ್ಯಾಪಾರ ಮಾಹಿತಿಯನ್ನು ಒದಗಿಸುತ್ತಿಲ್ಲ. ದಯವಿಟ್ಟು ಬೇರೆ ನಾಣ್ಯವನ್ನು ಬಳಸಿ, ಅಥವಾ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="error__too_big_fiat_amount">ಕ್ಷಮಿಸಿ, ಆದರೆ ಮಾರುಕಟ್ಟೆ ಇನ್ನೂ ದೊಡ್ಡದಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಸಣ್ಣ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">ದಯವಿಟ್ಟು ಪಾವತಿಸಿ</string>

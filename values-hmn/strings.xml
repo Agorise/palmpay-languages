@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Hais yuam kev hauv phau ntawv</string>
     <string name="content_error_market">Nws tsis muaj kev txiav txim hauv DEX uas yuav pab peb ua tus pauv mus rau %1$s thaum lub sij hawm ntawd. \n \n__Ua mus rau qhov kev tshuaj ntsuam thiab xaiv ib qho khoom muaj nqis sib txawv.</string>
+    <string name="title__exchange_rate_error">Txauv kev ua yuam kev</string>
+    <string name="msg__exchange_rate_error">Thov txim, tab sis lub network tsis yog muab cov ntaub ntawv luam tawm thaum lub sij hawm ntawd. Thov siv lub npib txawv, lossis sim dua tom qab.</string>
+    <string name="error__too_big_fiat_amount">Thov txim, tab sis cov lag luam tsis yog qhov loj tau. Thov sau tus nqi me me.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Thov Them</string>

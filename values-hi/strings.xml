@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">ऑर्डर बुक त्रुटि</string>
     <string name="content_error_market">डीईएक्स में कोई ऑर्डर नहीं है जो हमें इस समय %1$s पर एक्सचेंज करने की अनुमति देगा। \n \n कृपया सेटिंग्स स्क्रीन पर जाएं और एक अलग आउटपुट संपत्ति का चयन करें।</string>
+    <string name="title__exchange_rate_error">विनिमय दर में त्रुटि</string>
+    <string name="msg__exchange_rate_error">क्षमा करें, लेकिन नेटवर्क इस समय उचित व्यापार जानकारी प्रदान नहीं कर रहा है। कृपया एक अलग सिक्के का उपयोग करें, या बाद में पुनः प्रयास करें।</string>
+    <string name="error__too_big_fiat_amount">क्षमा करें, लेकिन बाजार अभी तक इतना बड़ा नहीं है। कृपया एक छोटा मान दर्ज करें।</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">भुगतान करें</string>

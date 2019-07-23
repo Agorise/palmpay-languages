@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Lỗi sách đặt hàng</string>
     <string name="content_error_market">Không có đơn đặt hàng nào trong DEX cho phép chúng tôi thực hiện giao dịch với %1$s vào lúc này. \n \nVui lòng chuyển đến màn hình cài đặt và chọn một nội dung đầu ra khác.</string>
+    <string name="title__exchange_rate_error">Lỗi tỷ giá</string>
+    <string name="msg__exchange_rate_error">Xin lỗi, nhưng mạng hiện không cung cấp thông tin giao dịch thích hợp. Vui lòng sử dụng một đồng tiền khác, hoặc thử lại sau.</string>
+    <string name="error__too_big_fiat_amount">Xin lỗi, nhưng thị trường vẫn chưa lớn. Vui lòng nhập một giá trị nhỏ hơn.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Vui long thanh toan</string>

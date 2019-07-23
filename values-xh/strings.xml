@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Iphutha lencwadi</string>
     <string name="content_error_market">Akukho myalelo kwi-DEX eya kuthi sivumele ukuba senze utshintsho ku -%1$s ngeli xesha. \n \nSicela uhambe kwiiskrini zesetyu kwaye ukhethe i-asethi yokuvelisa eyahlukileyo.</string>
+    <string name="title__exchange_rate_error">Iphutha lezinga lokutshintsha</string>
+    <string name="msg__exchange_rate_error">Uxolo, kodwa inethwekhi ayinikezeli ulwazi olufanelekileyo lorhweba okwangoku. Nceda sebenzisa imali ehlukile, okanye uzame emva koko.</string>
+    <string name="error__too_big_fiat_amount">Uxolo, kodwa imarike ayikho enkulu kakhulu. Nceda ufake ixabiso elincinci.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Nceda uhlawule</string>

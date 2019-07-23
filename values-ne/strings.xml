@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">आदेश पुस्तक त्रुटि</string>
     <string name="content_error_market">DEX मा कुनै अर्डरहरू छैनन् जुन हामीलाई क्षणमा %1$s लाई बदल्न अनुमति दिन सक्दछ। \n____ कृपया कृपया सेटिङ् स्क्रिनमा जानुहोस् र फरक आउटपुट सम्पत्ति चयन गर्नुहोस्।</string>
+    <string name="title__exchange_rate_error">विनिमय दर त्रुटि</string>
+    <string name="msg__exchange_rate_error">माफ गर्नुहोस्, तर सञ्जालले समयमा सही व्यापार जानकारी प्रदान गर्दैन। कृपया फरक सिक्का प्रयोग गर्नुहोस्, वा पछि फेरि प्रयास गर्नुहोस्।</string>
+    <string name="error__too_big_fiat_amount">माफ गर्नुहोस्, तर बजार अझ ठूलो होइन। कृपया सानो मूल्य प्रविष्ट गर्नुहोस्।</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">कृपया भुक्तानी गर्नुहोस्</string>

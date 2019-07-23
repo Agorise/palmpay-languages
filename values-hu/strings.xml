@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Rendelési könyv hiba</string>
     <string name="content_error_market">Nincs olyan megbízás a DEX-ben, amely lehetővé tenné számunkra, hogy a csere pillanatnyilag %1$s-re kerüljön. \n \nKérjük, menjen a beállítások képernyőre, és válasszon ki egy másik kimeneti eszközt.</string>
+    <string name="title__exchange_rate_error">Árfolyam hiba</string>
+    <string name="msg__exchange_rate_error">Sajnáljuk, de a hálózat jelenleg nem nyújt megfelelő kereskedelmi információkat. Kérjük, használjon más érmét, vagy próbálkozzon később.</string>
+    <string name="error__too_big_fiat_amount">Sajnálom, de a piac még nem olyan nagy. Kérjük, adjon meg egy kisebb értéket.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Kérlek fizess</string>

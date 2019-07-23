@@ -113,6 +113,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Error sa aklat ng order</string>
     <string name="content_error_market">Walang mga order sa DEX na magpapahintulot sa amin na magsagawa ng palitan sa %1$s sa sandaling ito. \n \nPlease pumunta sa screen ng mga setting at pumili ng ibang asset na output.</string>
+    <string name="title__exchange_rate_error">Error sa rate ng palitan</string>
+    <string name="msg__exchange_rate_error">Paumanhin, ngunit ang network ay hindi nagbibigay ng tamang impormasyon ng kalakalan sa ngayon. Mangyaring gumamit ng ibang barya, o subukan muli sa ibang pagkakataon.</string>
+    <string name="error__too_big_fiat_amount">Paumanhin, ngunit ang merkado ay hindi na malaki pa. Mangyaring magpasok ng mas maliit na halaga.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Mangyaring magbayad</string>

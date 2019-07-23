@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">ഓർഡർ ബുക്ക് പിശക്</string>
     <string name="content_error_market">ഇപ്പോൾ %1$s- ലേക്ക് എക്സ്ചേഞ്ച് ചെയ്യാൻ ഞങ്ങളെ അനുവദിക്കുന്ന DEX- ൽ ഓർഡറുകളൊന്നുമില്ല. \n \nPage ക്രമീകരണ സ്ക്രീനിലേക്ക് പോയി മറ്റൊരു ഔട്ട്പുട്ട് അസറ്റ് തിരഞ്ഞെടുക്കുക.</string>
+    <string name="title__exchange_rate_error">വിനിമയ നിരക്ക് പിശക്</string>
+    <string name="msg__exchange_rate_error">ക്ഷമിക്കണം, നെറ്റ്‌വർക്ക് ഇപ്പോൾ ശരിയായ വ്യാപാര വിവരങ്ങൾ നൽകുന്നില്ല. ദയവായി മറ്റൊരു നാണയം ഉപയോഗിക്കുക, അല്ലെങ്കിൽ പിന്നീട് വീണ്ടും ശ്രമിക്കുക.</string>
+    <string name="error__too_big_fiat_amount">ക്ഷമിക്കണം, വിപണി ഇതുവരെ അത്ര വലുതല്ല. ഒരു ചെറിയ മൂല്യം നൽകുക.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">ദയവായി പണമടയ്ക്കുക</string>

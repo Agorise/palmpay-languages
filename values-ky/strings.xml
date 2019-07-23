@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Order китеп ката</string>
     <string name="content_error_market">Келгиле, азыр %1$s алмашуу аткарууга мүмкүндүк берет Декс эч кандай буйрук жок. \n \nPlease орнотуулар экранга жана башка чыгаруу мүлк тандоо.</string>
+    <string name="title__exchange_rate_error">Алмашуу курсу ката</string>
+    <string name="msg__exchange_rate_error">Кечиресиз, бирок бул тармак азыр туура соода-маалымат менен камсыз кылбайт. Башка тыйын колдонуп коюш керек, же кийин дагы аракет.</string>
+    <string name="error__too_big_fiat_amount">Кечиресиз, бирок базар деген чоң эмес. Сураныч, бир аз баасын кирет.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Сураныч, төлөө</string>

@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Bestillingsbok feil</string>
     <string name="content_error_market">Det er ingen ordre i DEX som vil tillate oss å utføre utvekslingen til %1$s for øyeblikket. \n \nVennligst gå til innstillingsskjermbildet og velg et annet utgangseffekt.</string>
+    <string name="title__exchange_rate_error">Valutakursfeil</string>
+    <string name="msg__exchange_rate_error">Beklager, men nettverket gir ikke riktig handelsinformasjon for øyeblikket. Bruk en annen mynt, eller prøv igjen senere.</string>
+    <string name="error__too_big_fiat_amount">Beklager, men markedet er ikke så stort ennå. Vennligst skriv inn en mindre verdi.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Vær så snill å betal</string>

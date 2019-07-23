@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Archebu gwall llyfr</string>
     <string name="content_error_market">Nid oes unrhyw orchmynion yn y DEX a fyddai\'n caniatáu inni berfformio\'r gyfnewid i %1$s ar hyn o bryd. \n \nAn ewch i sgrin y gosodiadau a dewiswch ased allbwn gwahanol.</string>
+    <string name="title__exchange_rate_error">Gwall cyfradd gyfnewid</string>
+    <string name="msg__exchange_rate_error">Mae\'n ddrwg gennym, ond nid yw\'r rhwydwaith yn darparu\'r wybodaeth fasnach briodol ar hyn o bryd. Defnyddiwch ddarn arian gwahanol, neu rhowch gynnig arall arno yn ddiweddarach.</string>
+    <string name="error__too_big_fiat_amount">Mae\'n ddrwg gennym, ond nid yw\'r farchnad mor fawr eto. Nodwch werth llai os gwelwch yn dda.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Taluwch</string>

@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Error de reserva d\'ordres</string>
     <string name="content_error_market">No hi ha ordres al DEX que ens permetin realitzar l\'intercanvi a %1$s en aquest moment. \n \n Aneu a la pantalla de configuració i seleccioneu un altre actiu de sortida.</string>
+    <string name="title__exchange_rate_error">Error de tipus de canvi</string>
+    <string name="msg__exchange_rate_error">Ho sentim, però la xarxa no proporciona actualment la informació comercial adequada. Utilitzeu una moneda diferent o torneu-ho a provar.</string>
+    <string name="error__too_big_fiat_amount">Ho sentim, però el mercat encara no és tan gran. Introduïu un valor més petit.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Pagueu</string>

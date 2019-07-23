@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Order Book villa</string>
     <string name="content_error_market">Það eru engar pantanir í DEX sem myndi gera okkur kleift að framkvæma skiptið í %1$s í augnablikinu. \n \nViltu fara á stillingarskjáinn og velja annan framleiðsla eign.</string>
+    <string name="title__exchange_rate_error">Gengi gjaldmiðla</string>
+    <string name="msg__exchange_rate_error">Því miður, en netið veitir ekki réttar upplýsingar um viðskipti í augnablikinu. Vinsamlegast notaðu annað mynt, eða reyndu aftur seinna.</string>
+    <string name="error__too_big_fiat_amount">Því miður, en markaðurinn er ekki svo stór ennþá. Vinsamlegast sláðu inn minni gildi.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Vinsamlegast borgaðu</string>

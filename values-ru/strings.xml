@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Ошибка заказа книги</string>
     <string name="content_error_market">В DEX нет заказов, которые позволят нам выполнить обмен на %1$s на данный момент. \n \nПожалуйста, перейдите на экран настроек и выберите другой выходной ресурс.</string>
+    <string name="title__exchange_rate_error">Ошибка обменного курса</string>
+    <string name="msg__exchange_rate_error">Извините, но в данный момент сеть не предоставляет надлежащей торговой информации. Пожалуйста, используйте другую монету или повторите попытку позже.</string>
+    <string name="error__too_big_fiat_amount">Извините, но рынок пока не такой большой. Пожалуйста, введите меньшее значение.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Пожалуйста оплатите</string>

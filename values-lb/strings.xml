@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Bicher Bicherfehler</string>
     <string name="content_error_market">Et ginn keng Uweisungen am DEX, déi eis erlaabt sinn, den Austausch zu %1$s am Moment auszeféieren. \n \nMellt Iech op d\'Astellungsmenü a wielt en anere Resultat.</string>
+    <string name="title__exchange_rate_error">Exchange Rate Fehler</string>
+    <string name="msg__exchange_rate_error">Leider, mee de Réseau hëlleft den Moment keng korrekten Handelsinformatioun. Benotzt weg eng aner Mënz, oder probéiert spéider nees spéit.</string>
+    <string name="error__too_big_fiat_amount">Leider, awer de Maart ass net esou vill. Gidd weg e klengt Wäert.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Weg bezuelt</string>

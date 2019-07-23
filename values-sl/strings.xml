@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Napaka knjige naročil</string>
     <string name="content_error_market">V DEX-u ni nobenih naročil, ki bi nam omogočili, da trenutno izvedemo izmenjavo na %1$s. \n \n Prosimo, pojdite na zaslon z nastavitvami in izberite drugo izhodno sredstvo.</string>
+    <string name="title__exchange_rate_error">Napaka menjalnega tečaja</string>
+    <string name="msg__exchange_rate_error">Žal omrežje trenutno ne zagotavlja ustreznih podatkov o trgovini. Uporabite drug kovanec ali poskusite znova pozneje.</string>
+    <string name="error__too_big_fiat_amount">Oprostite, vendar trg še ni tako velik. Vnesite manjšo vrednost.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Prosim, plačaj</string>

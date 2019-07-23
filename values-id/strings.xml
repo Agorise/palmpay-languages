@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Pesan kesalahan buku</string>
     <string name="content_error_market">Tidak ada pesanan di DEX yang memungkinkan kami melakukan pertukaran ke %1$s saat ini. \n \nHarap masuk ke layar pengaturan dan pilih aset output yang berbeda.</string>
+    <string name="title__exchange_rate_error">Kesalahan nilai tukar</string>
+    <string name="msg__exchange_rate_error">Maaf, tetapi jaringan tidak memberikan informasi perdagangan yang tepat saat ini. Silakan gunakan koin yang berbeda, atau coba lagi nanti.</string>
+    <string name="error__too_big_fiat_amount">Maaf, tapi pasar belum sebesar itu. Silakan masukkan nilai yang lebih kecil.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Tolong bayar</string>

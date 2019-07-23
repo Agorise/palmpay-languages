@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Sipariş defteri hatası</string>
     <string name="content_error_market">DEX\'te şu andaki değişimi %1$s yapmamızı sağlayacak hiçbir emir bulunmamaktadır. \n \nLütfen ayarlar ekranına gidin ve farklı bir çıkış varlığı seçin.</string>
+    <string name="title__exchange_rate_error">Döviz kuru hatası</string>
+    <string name="msg__exchange_rate_error">Üzgünüz, ancak ağ şu anda doğru ticaret bilgilerini sağlamıyor. Lütfen farklı bir madeni para kullanın veya daha sonra tekrar deneyin.</string>
+    <string name="error__too_big_fiat_amount">Üzgünüz, ama pazar henüz o kadar büyük değil. Lütfen daha küçük bir değer girin.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Lütfen öde</string>

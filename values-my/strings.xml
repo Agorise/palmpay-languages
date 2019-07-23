@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">အမိန့်စာအုပ်အမှား</string>
     <string name="content_error_market">ကျွန်တော်တို့ကိုယခုအချိန်တွင် %1$s ဖို့လဲလှယ်ဖျော်ဖြေဖို့ခွင့်ပြုမယ်လို့သော DEX မရှိအမိန့်ရှိပါတယ်။ \n \nPlease setting များကိုမျက်နှာပြင်ကိုသွားနှင့်တစ်ဦးကွဲပြားခြားနား output ကိုပိုင်ဆိုင်မှုကိုရွေးပါ။</string>
+    <string name="title__exchange_rate_error">ငွေလဲနှုန်းကိုအမှား</string>
+    <string name="msg__exchange_rate_error">စိတ်မကောင်းပါ, သို့သော်ကွန်ယက်ကိုယခုအချိန်တွင်သင့်လျော်သောကုန်သွယ်မှုသတင်းအချက်အလက်ပေးမထားပါ။ တစ်ဦးကွဲပြားခြားနားအကြွေစေ့ကိုသုံးပါသို့မဟုတ်နောက်မှထပ်ကြိုးစားပါ။</string>
+    <string name="error__too_big_fiat_amount">စိတ်မကောင်းပါ, သို့သော်စျေးကွက်မရှိသေးပါကြောင်းကြီးတွေမဟုတ်ပါဘူး။ သေးငယ်တဲ့တန်ဖိုးကိုရိုက်ထည့်ပေးပါ။</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Pay ကျေးဇူးပြု.</string>

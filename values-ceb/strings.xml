@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Sayop nga libro sa order</string>
     <string name="content_error_market">Walay mga mando sa DEX nga magtugot kanato sa paghimo sa pagbaylo sa %1$s sa takna. \n \nPangadto sa screen sa mga setting ug pilia ang lain-laing mga asset sa output.</string>
+    <string name="title__exchange_rate_error">Sayop nga rate sa bili</string>
+    <string name="msg__exchange_rate_error">Pasayloa, apan ang network wala naghatag sa tukmang impormasyon sa trade sa pagkakaron. Palihog gamita ang lainlaing sensilyo, o sulayi pag-usab sa ulahi.</string>
+    <string name="error__too_big_fiat_amount">Pasayloa, apan ang merkado dili na dako pa. Palihug pagsulod og gamay nga bili.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Palihug Bayad</string>

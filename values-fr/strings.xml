@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Erreur du carnet de commandes</string>
     <string name="content_error_market">Aucun ordre dans le DEX ne nous permettrait d’effectuer l’échange à %1$s pour le moment. \n \nVeuillez accéder à l\'écran des paramètres et sélectionnez un autre actif de sortie.</string>
+    <string name="title__exchange_rate_error">Erreur de taux de change</string>
+    <string name="msg__exchange_rate_error">Désolé, le réseau ne fournit pas les informations commerciales correctes pour le moment. Veuillez utiliser une pièce différente ou réessayer plus tard.</string>
+    <string name="error__too_big_fiat_amount">Désolé, mais le marché n\'est pas encore si gros. Veuillez entrer une valeur inférieure.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Merci de payer</string>

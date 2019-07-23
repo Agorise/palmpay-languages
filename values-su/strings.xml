@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">kasalahan buku urutan</string>
     <string name="content_error_market">Aya henteu pemesanan di DEX nu bakal ngidinan kami pikeun ngalakonan bursa mun %1$s di momen. \n \nPlease muka layar setélan jeung milih asset kaluaran béda.</string>
+    <string name="title__exchange_rate_error">Nilai tukeur kasalahan</string>
+    <string name="msg__exchange_rate_error">Hampura, tapi jaringan henteu masihan inpormasi perdagangan anu ditangtoskeun di ayeuna. Punten nganggo koin anu sanés, atawa cobian deui engké.</string>
+    <string name="error__too_big_fiat_amount">Hapunten, tapi pasaran henteu acan langkung gedé. Punten lebetkeun nilai leutik</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Mangga mapay</string>

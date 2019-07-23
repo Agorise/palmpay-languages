@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">訂單簿錯誤</string>
     <string name="content_error_market">DEX中沒有任何訂單可以讓我們暫時執行%1$s交換。 \n \n請轉到設置屏幕並選擇其他輸出資產。</string>
+    <string name="title__exchange_rate_error">匯率錯誤</string>
+    <string name="msg__exchange_rate_error">抱歉，網絡暫時沒有提供正確的交易信息。請使用其他硬幣，或稍後再試。</string>
+    <string name="error__too_big_fiat_amount">對不起，但市場還不是那麼大。請輸入一個較小的值。</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">請付款</string>

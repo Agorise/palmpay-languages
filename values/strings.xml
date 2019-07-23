@@ -120,7 +120,10 @@
     <string name="nine">9</string>
     <string name="title_error_market">Order book error</string>
     <string name="content_error_market">There are no orders in the DEX that would allow us to perform the exchange to %1$s at the moment.  Please go to the settings screen and select a different output asset.</string>
-    <string name="error_exchange_rate" formatted="true">Could not fetch a correct exchange rate. Msg: %1$s</string>
+    <string name="error_exchange_rate" formatted="true">Could not fetch a correct exchange rate. Msg: %1$s</string> <!-- TODO remove -->
+    <string name="title__exchange_rate_error">Exchange rate error</string>
+    <string name="msg__exchange_rate_error">Sorry, but the network is not providing the proper trade information at the moment. Please use a different coin, or try again later.</string>
+    <string name="error__too_big_fiat_amount">Sorry, but the market is not that big yet. Please enter a smaller value.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Please Pay</string>

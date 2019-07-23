@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Պատվիրել գիրքը սխալ</string>
     <string name="content_error_market">DEX- ում պատվերներ չկան, որոնք թույլ կտան փոխանակել %1$s- ին: \n \n Դիմեք կարգավորումների էկրանին եւ ընտրեք այլ ելքային ակտիվ:</string>
+    <string name="title__exchange_rate_error">Փոխարժեքի սխալը</string>
+    <string name="msg__exchange_rate_error">Ներեցեք, բայց ցանցը ներկայումս պատշաճ առեւտրային տեղեկություն չի տրամադրում: Խնդրում ենք օգտագործել այլ մետաղադրամ կամ փորձեք ավելի ուշ:</string>
+    <string name="error__too_big_fiat_amount">Ներեցեք, բայց շուկան այնքան էլ մեծ չէ: Խնդրում ենք մուտքագրել ավելի փոքր արժեք:</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Խնդրում ենք վճարել</string>

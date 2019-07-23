@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Bestel buchferbrûk</string>
     <string name="content_error_market">Der binne gjin oarders yn \'e DEX dy\'t it tastimming jaan kinne oan it %1$s op it stuit. \n \nPlease gean nei it ynstellingsskerm en selektearje in oare effektive asset.</string>
+    <string name="title__exchange_rate_error">Exchange rate error</string>
+    <string name="msg__exchange_rate_error">Sorry, mar it netwurk is op it stuit net de gaadlike ynformaasje. Graach in oare munt brûke, of besykje it letter nochris.</string>
+    <string name="error__too_big_fiat_amount">Sorry, mar de merk is net dat grut noch. Fier in lytsere wearde yn.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Please Pay</string>

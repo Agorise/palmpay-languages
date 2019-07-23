@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Грешка в книгата за поръчки</string>
     <string name="content_error_market">Няма поръчки в DEX, които биха ни позволили да извършим обмена до %1$s в момента. \n \nМоля, отидете в екрана за настройки и изберете различен актив на продукцията.</string>
+    <string name="title__exchange_rate_error">Грешка в обменния курс</string>
+    <string name="msg__exchange_rate_error">За съжаление в момента мрежата не предоставя подходяща търговска информация. Моля, използвайте различна монета или опитайте отново по-късно.</string>
+    <string name="error__too_big_fiat_amount">Съжаляваме, но пазарът все още не е толкова голям. Моля, въведете по-малка стойност.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Моля, платете</string>

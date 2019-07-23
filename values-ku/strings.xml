@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Daxuyaniya pirtûkê</string>
     <string name="content_error_market">Li DEX nîne ku di meha dextê de dê destûrê bide %1$s. \n __N__Ji kerema xwe li ser paceya mîhengên biçin û hilberek hilberek cuda hilbijêre.</string>
+    <string name="title__exchange_rate_error">Çewtiya rêjeya çewtiyê</string>
+    <string name="msg__exchange_rate_error">Bi rastî, lê torê di dema ku agahdariya bazirganî ya bazirganî de ne pêşkêş dikin. Ji kerema xwe coinek cuda bikar bînin, an jî paşê dîsa biceribînin.</string>
+    <string name="error__too_big_fiat_amount">Bêguman, lê bazara ne hêja ne. Ji kerema xwe nirxek biçûk bike.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Ji kerema xwe</string>

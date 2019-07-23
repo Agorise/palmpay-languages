@@ -113,7 +113,10 @@
     <string name="eight">8)</string>
     <string name="nine">9</string>
     <string name="title_error_market">Қатъи китобҳои даркорӣ</string>
-    <string name="content_error_market">Дар DEX фармоиш вуҷуд надорад, ки ба мо имкон медиҳад, ки мубодила ба %1$s дар айни замон. \n ___ _____________________________________________________________________________________________________ Ба лавҳаи танзимот гузаред ва дорои як намуди дигари маҳсулотро интихоб кунед.</string>
+    <string name="content_error_market">Дар DEX фармоиш вуҷуд надорад, ки ба мо имкон медиҳад, ки мубодила ба %1$s дар айни замон. \nБа лавҳаи танзимот гузаред ва дорои як намуди дигари маҳсулотро интихоб кунед.</string>
+    <string name="title__exchange_rate_error">Хатогии қурби асъор</string>
+    <string name="msg__exchange_rate_error">Мутаассифона, вале шабака дар айни замон иттилооти дурусти муносибро таъмин намекунад. Лутфан тендери дигарро истифода баред, ё дертар кӯшиш кунед.</string>
+    <string name="error__too_big_fiat_amount">Бубахшед, аммо бозор ин қадар калон нест. Лутфан арзиши хурдтарро ворид кунед.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Лутфан пардохт кунед</string>
@@ -129,7 +132,7 @@
     <string name="share_with">Бо ҳам сӯҳбат кунед</string>
     <string name="connecting">Пайвастшавӣ…</string>
     <string name="error_bridge_title">Хатогии калидҳо</string>
-    <string name="error_bridge_content">Пули интиқоли пулӣ ба назар мерасад. _______ __________ \n \nКодироти рамзи: %1$d</string>
+    <string name="error_bridge_content">Пули интиқоли пулӣ ба назар мерасад. \n\nКодироти рамзи: %1$d</string>
     <string name="button_accept_tx">Амалиётро қабул кунед</string>
     <string name="dialog_accept_tx_title">Қабули амалиёт</string>
     <string name="dialog_accept_tx_summary">Амалиёт ошкор карда шуд, вале ҳанӯз пурра тасдиқ нашудааст.</string>

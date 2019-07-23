@@ -113,7 +113,10 @@
     <string name="eight">8</string>
     <string name="nine">9</string>
     <string name="title_error_market">Faʻailoga le tusi tusi</string>
-    <string name="content_error_market">E leai se tulafono i le DEX o le a mafai ai ona matou faia le fesuiaiga i le %1$s i le taimi nei. \n ___Eliu alu i le siaki faʻamau ma filifili se isi aseta o gaosiga.</string>
+    <string name="content_error_market">E leai se tulafono i le DEX o le a mafai ai ona matou faia le fesuiaiga i le %1$s i le taimi nei. \nEliu alu i le siaki faʻamau ma filifili se isi aseta o gaosiga.</string>
+    <string name="title__exchange_rate_error">Faʻasologa o fefaʻatauaiga</string>
+    <string name="msg__exchange_rate_error">Faʻamolemole, ae o le \'upega tafaʻilagi e le o tuʻuina atu faʻamatalaga saʻo fefaʻatauaʻiga i le taimi nei. Faʻamolemole faʻaaoga se tupe siliva, pe toe taumafai mulimuli ane.</string>
+    <string name="error__too_big_fiat_amount">Faʻamolemole, ae le maketi le maketi. Faʻamolemole ulufale i se tau maualalo.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Faamolemole totogi</string>

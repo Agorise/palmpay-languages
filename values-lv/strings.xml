@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Pasūtiet grāmatu kļūdu</string>
     <string name="content_error_market">DEX nav pasūtījumu, kas ļautu mums veikt apmaiņu %1$s brīdī. \n \nLūdzu, dodieties uz iestatījumu ekrānu un izvēlieties citu izejas aktīvu.</string>
+    <string name="title__exchange_rate_error">Valūtas kursa kļūda</string>
+    <string name="msg__exchange_rate_error">Atvainojiet, bet tīkls pašlaik nesniedz atbilstošu tirdzniecības informāciju. Lūdzu, izmantojiet citu monētu vai vēlāk mēģiniet vēlreiz.</string>
+    <string name="error__too_big_fiat_amount">Atvainojiet, bet tirgus vēl nav tik liels. Lūdzu, ievadiet mazāku vērtību.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Lūdzu, samaksājiet</string>

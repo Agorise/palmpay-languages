@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">ఆర్డర్ బుక్ లోపం</string>
     <string name="content_error_market">ప్రస్తుతానికి మాకు %1$s కు ఎక్స్ఛేంజ్ నిర్వహించడానికి అనుమతించే DEX లో ఏ ఆదేశాలు లేవు. \n \n దయచేసి సెట్టింగుల స్క్రీన్కు వెళ్ళి వేరే అవుట్పుట్ ఆస్తిని ఎంచుకోండి.</string>
+    <string name="title__exchange_rate_error">మార్పిడి రేటు లోపం</string>
+    <string name="msg__exchange_rate_error">క్షమించండి, కానీ నెట్‌వర్క్ ప్రస్తుతం సరైన వాణిజ్య సమాచారాన్ని అందించడం లేదు. దయచేసి వేరే నాణెం ఉపయోగించండి లేదా తరువాత మళ్లీ ప్రయత్నించండి.</string>
+    <string name="error__too_big_fiat_amount">క్షమించండి, కానీ మార్కెట్ ఇంకా పెద్దది కాదు. దయచేసి చిన్న విలువను నమోదు చేయండి.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">దయచేసి చెల్లించండి</string>

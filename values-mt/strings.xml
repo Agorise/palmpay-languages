@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Żball fil-ktieb ta \'</string>
     <string name="content_error_market">M\'hemm l-ebda ordnijiet fid-DEX li jippermettulna li nwettqu l-iskambju għal %1$s fil-mument. \n \n Jekk jogħġbok mur l-iskeda tas-settings u agħżel attiv ta \'produzzjoni differenti.</string>
+    <string name="title__exchange_rate_error">Żball fir-rata tal-kambju</string>
+    <string name="msg__exchange_rate_error">Skużani, imma n-netwerk bħalissa mhux qed jipprovdi l-informazzjoni kummerċjali xierqa. Jekk jogħġbok uża munita differenti, jew erġa pprova aktar tard.</string>
+    <string name="error__too_big_fiat_amount">Skużani, imma s-suq għadu mhux daqshekk kbir. Jekk jogħġbok ikteb valur iżgħar.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Jekk jogħġbok Ħallas</string>

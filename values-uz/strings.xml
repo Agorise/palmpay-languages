@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Buyurtma kitobidagi xato</string>
     <string name="content_error_market">DEX-da hozircha %1$s ga almashtirishga ruxsat beradigan buyruq yo\'q. \n \nSozlamalar ekraniga o\'ting va boshqa chiqdi varianti tanlang.</string>
+    <string name="title__exchange_rate_error">Ayirboshlash kursi xatosi</string>
+    <string name="msg__exchange_rate_error">Kechirasiz, lekin hozirgi paytda tarmoq to\'g\'ri savdo ma\'lumotlarini ta\'minlamaydi. Iltimos, boshqa bir tanga foydalaning yoki keyinroq qayta urinib ko\'ring.</string>
+    <string name="error__too_big_fiat_amount">Kechirasiz, bozor hali katta emas. Iltimos, kichikroq qiymat kiriting.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Iltimos, to\'lang</string>

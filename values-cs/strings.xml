@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Chyba objednávky</string>
     <string name="content_error_market">V DEXu nejsou žádné objednávky, které by nám umožnily provádět výměnu %1$s v tuto chvíli. \n \nProsím, přejděte na obrazovku s nastavením a vyberte jiný výstupní materiál.</string>
+    <string name="title__exchange_rate_error">Chyba směnného kurzu</string>
+    <string name="msg__exchange_rate_error">Je nám líto, ale síť v tuto chvíli neposkytuje správné obchodní informace. Použijte jinou minci nebo zkuste to později.</string>
+    <string name="error__too_big_fiat_amount">Promiň, ale trh ještě není tak velký. Zadejte menší hodnotu.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Prosím zaplať</string>

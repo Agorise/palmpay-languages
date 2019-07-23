@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">ਆਰਡਰ ਬੁੱਕ ਅਸ਼ੁੱਧੀ</string>
     <string name="content_error_market">DEX ਵਿੱਚ ਕੋਈ ਆਦੇਸ਼ ਨਹੀਂ ਹੈ ਜੋ ਸਾਨੂੰ ਇਸ ਸਮੇਂ %1$s ਨੂੰ ਐਕਸਚੇਂਜ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦੇਵੇਗਾ. \n \n ਕਿਰਪਾ ਕਰਕੇ ਸੈਟਿੰਗਜ਼ ਸਕ੍ਰੀਨ ਤੇ ਜਾਓ ਅਤੇ ਇੱਕ ਵੱਖਰੀ ਆਊਟਪੁਟ ਸੰਪੱਤੀ ਚੁਣੋ.</string>
+    <string name="title__exchange_rate_error">ਐਕਸਚੇਂਜ ਦਰ ਗਲਤੀ</string>
+    <string name="msg__exchange_rate_error">ਮੁਆਫ਼ ਕਰਨਾ, ਪਰੰਤੂ ਇਸ ਵੇਲੇ ਨੈੱਟਵਰਕ ਸਹੀ ਵਪਾਰਕ ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਨਹੀਂ ਕਰ ਰਿਹਾ. ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੱਖਰਾ ਸਿੱਕਾ ਵਰਤੋ, ਜਾਂ ਫਿਰ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ.</string>
+    <string name="error__too_big_fiat_amount">ਅਫਸੋਸ ਹੈ, ਪਰ ਮਾਰਕੀਟ ਅਜੇ ਇੰਨੀ ਵੱਡੀ ਨਹੀਂ ਹੈ ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਛੋਟਾ ਮੁੱਲ ਦਾਖਲ ਕਰੋ.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">ਕਿਰਪਾ ਕਰਕੇ ਭੁਗਤਾਨ ਕਰੋ</string>

@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Orderboekfout</string>
     <string name="content_error_market">Er zijn geen opdrachten in de DEX die ons in staat stellen om op dit moment de uitwisseling met %1$s uit te voeren. \n \nGa naar het instellingenscherm en selecteer een ander uitvoeritem.</string>
+    <string name="title__exchange_rate_error">Wisselkoersfout</string>
+    <string name="msg__exchange_rate_error">Sorry, maar het netwerk biedt momenteel niet de juiste handelsinformatie. Gebruik alstublieft een andere munt, of probeer het later opnieuw.</string>
+    <string name="error__too_big_fiat_amount">Sorry, maar de markt is nog niet zo groot. Voer een kleinere waarde in.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Betaal alsjeblieft</string>

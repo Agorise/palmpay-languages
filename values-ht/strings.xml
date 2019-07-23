@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Lòd liv lòd</string>
     <string name="content_error_market">Pa gen lòd nan DEX la ki ta pèmèt nou fè echanj nan %1$s nan moman sa a. \n \nPlease ale nan ekran an anviwònman epi chwazi yon avantaj pwodiksyon diferan.</string>
+    <string name="title__exchange_rate_error">Erè echanj pousantaj</string>
+    <string name="msg__exchange_rate_error">Padon, men rezo a pa bay enfòmasyon komès apwopriye nan moman an. Tanpri itilize yon pyès diferan, oswa eseye ankò pita.</string>
+    <string name="error__too_big_fiat_amount">Padon, men mache a se pa ke gwo ankò. Tanpri antre yon valè ki pi piti.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Tanpri peye</string>

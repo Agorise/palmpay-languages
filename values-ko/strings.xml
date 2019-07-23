@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">주문 도서 오류</string>
     <string name="content_error_market">DEX에는 현재 %1$s 로의 교환을 수행 할 수있는 명령이 없습니다. 설정 화면으로 이동하여 다른 출력 자산을 선택하십시오.</string>
+    <string name="title__exchange_rate_error">환율 오류</string>
+    <string name="msg__exchange_rate_error">죄송합니다. 네트워크가 현재 적절한 거래 정보를 제공하지 않습니다. 다른 동전을 사용하거나 나중에 다시 시도하십시오.</string>
+    <string name="error__too_big_fiat_amount">미안하지만 시장은 그렇게 크지 않다. 더 작은 값을 입력하십시오.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">지불하시기 바랍니다</string>

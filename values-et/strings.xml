@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Telli raamatu viga</string>
     <string name="content_error_market">DEXis pole tellimusi, mis võimaldaks meil praegu vahetada %1$s-i. \n \nPalun käsku Seadistustekraan ja valige mõni muu väljundvara.</string>
+    <string name="title__exchange_rate_error">Vahetuskursi viga</string>
+    <string name="msg__exchange_rate_error">Kahjuks ei paku võrk hetkel õiget kaubandusteavet. Palun kasutage teist münti või proovige hiljem uuesti.</string>
+    <string name="error__too_big_fiat_amount">Vabandust, kuid turg pole veel nii suur. Sisestage väiksem väärtus.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Palun makske</string>

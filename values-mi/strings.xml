@@ -113,7 +113,10 @@
     <string name="eight">8</string>
     <string name="nine">9</string>
     <string name="title_error_market">Puka hapa pukapuka</string>
-    <string name="content_error_market">Kaore he tono i te DEX e taea ai e matou te whakaputa i te whakawhiti ki te %1$s i tenei wa. \n ___Me haere ki te tautuhinga tautuhinga me te whiriwhiri i tetahi rawa hua whakaputa.</string>
+    <string name="content_error_market">Kaore he tono i te DEX e taea ai e matou te whakaputa i te whakawhiti ki te %1$s i tenei wa. \nMe haere ki te tautuhinga tautuhinga me te whiriwhiri i tetahi rawa hua whakaputa.</string>
+    <string name="title__exchange_rate_error">Ko te hapa o te whakawhitiwhiti</string>
+    <string name="msg__exchange_rate_error">Aroha mai, engari kaore te whatunga i te whakarato i nga korero hokohoko tika i te wa. Whakamahia koa he moni rereke, ka ngana ano i muri mai.</string>
+    <string name="error__too_big_fiat_amount">Aroha mai, engari ko te maakete ehara i te mea nui. Tēnā koa whakauruhia he uara iti ake.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Tena utu</string>

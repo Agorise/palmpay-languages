@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Eroare comandă de carte</string>
     <string name="content_error_market">Nu există ordine în DEX care să ne permită să efectuăm schimbul la %1$s în acest moment. \n \nVă rugăm să mergeți la ecranul de setări și să selectați un alt activ de ieșire.</string>
+    <string name="title__exchange_rate_error">Eroarea ratei de schimb</string>
+    <string name="msg__exchange_rate_error">Ne pare rău, însă, în prezent, rețeaua nu furnizează informațiile comerciale adecvate. Utilizați o altă monedă sau încercați din nou mai târziu.</string>
+    <string name="error__too_big_fiat_amount">Ne pare rău, dar piața încă nu este atât de mare. Introduceți o valoare mai mică.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Te rog plateste</string>

@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Dhiyabhorosi book book</string>
     <string name="content_error_market">Hakuchina mirairo muDEX iyo inotibvumira kuita shanduro ye %1$s panguva ino.    Naienda kuchikwangara chekugadzirisa uye sarudza imwe yakasiyana yezvinhu.</string>
+    <string name="title__exchange_rate_error">Exchange rate error</string>
+    <string name="msg__exchange_rate_error">Ndine urombo, asi mambure haasi kugovera zvakakodzera zvekutengeserana mashoko panguva ino. Ndapota shandisa mari yakasiyana, kana edzazve gare gare.</string>
+    <string name="error__too_big_fiat_amount">Ndine urombo, asi mumusika hausi mukuru zvakadaro. Ndapota nyora kukosha.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Ndapota Chengeta</string>

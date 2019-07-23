@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Soraty ny boky diso</string>
     <string name="content_error_market">Tsy misy didy ao amin\'ny DEX izay ahafahantsika manatanteraka ny fifanakalozan-kevitra amin\'ny %1$s amin\'izao fotoana izao. \n \n Alefaso any amin\'ny efijery fametrahana ary mifidiana solosaina hafa.</string>
+    <string name="title__exchange_rate_error">Fandraisan\'anjaran\'ny hetra</string>
+    <string name="msg__exchange_rate_error">Miala tsiny, fa ny tambajotra dia tsy manome ny fampahalalam-baovao mahazatra amin\'izao fotoana izao. Mampiasà vola madinika hafa, na manandrama indray aoriana.</string>
+    <string name="error__too_big_fiat_amount">Miala tsiny, fa ny tsena dia tsy mbola lehibe. Mampidira sanda kely kokoa azafady.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Azafady mba mividiana</string>

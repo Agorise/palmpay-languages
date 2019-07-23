@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Runtute buku</string>
     <string name="content_error_market">Ora ana pesenan ing DEX sing bakal ngidini kita tundhuk marang %1$s ing wektu iki. \n \nPlease go menyang layar setelan lan pilih aset output sing beda.</string>
+    <string name="title__exchange_rate_error">Kesalahan tarif Exchange</string>
+    <string name="msg__exchange_rate_error">Ngapunten, nanging jaringan ora nyedhiyakake informasi dagang sing tepat ing wektu iki. Mangga digunakake duwit receh sing beda, utawa coba maneh mengko.</string>
+    <string name="error__too_big_fiat_amount">Ngapunten, nanging pasar durung gedhe. Mangga lebokno nilai sing luwih cilik.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Mangga Pay</string>

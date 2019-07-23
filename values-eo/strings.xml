@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Ordinara eraro</string>
     <string name="content_error_market">Ne estas ordonoj en la DEX, kiu permesus al ni realigi la interŝanĝon al %1$s nuntempe. \n \n Bonvolu iri al la agorda ekrano kaj elektu alian elspezan valuton.</string>
+    <string name="title__exchange_rate_error">Interŝanĝa kurzo eraro</string>
+    <string name="msg__exchange_rate_error">Pardonu, sed la reto nuntempe ne provizas la taŭgan komercan informon. Bonvolu uzi alian moneron aŭ provu denove poste.</string>
+    <string name="error__too_big_fiat_amount">Pardonu, sed la merkato ankoraŭ ne estas tiel granda. Bonvolu enigi pli malgrandan valoron.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Bonvolu pagi</string>

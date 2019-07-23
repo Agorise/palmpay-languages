@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">កំហុសសៀវភៅបញ្ជា</string>
     <string name="content_error_market">មិនមានការបញ្ជាទិញ DEX ដែលនឹងអនុញ្ញាតឱ្យយើងធ្វើការផ្លាស់ប្តូរទៅ %1$s នៅពេលនេះទេ។ \n \n សូមចូលទៅអេក្រង់កំណត់ហើយជ្រើសរើសទ្រព្យសកម្មលទ្ធផលផ្សេង។</string>
+    <string name="title__exchange_rate_error">កំហុសឆ្គងអត្រាប្តូរប្រាក់</string>
+    <string name="msg__exchange_rate_error">សូមទោស, ប៉ុន្តែបណ្តាញនេះមិនត្រូវបានផ្តល់ពត៌មានពាណិជ្ជកម្មត្រឹមត្រូវនៅពេលនេះ។ សូមប្រើកាក់ផ្សេងឬព្យាយាមម្ដងទៀតពេលក្រោយ។</string>
+    <string name="error__too_big_fiat_amount">សុំទោសប៉ុន្តែទីផ្សារមិនទាន់ធំនៅឡើយទេ។ សូមបញ្ចូលតម្លៃតូចជាង។</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">សូមបង់ប្រាក់</string>

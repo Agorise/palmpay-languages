@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Errore di u libru di ordine</string>
     <string name="content_error_market">Ùn ci hè micca urdinatu in u DEX chì puderamu permette di fà u cambiamentu à %1$s in u mumentu. \n \nPiazza à a scatula di u paràmetru è selezziunate un attivu di prughjettu diffirenti.</string>
+    <string name="title__exchange_rate_error">Errore di u mumentu di cambiu</string>
+    <string name="msg__exchange_rate_error">Ci dispiace, ma a rete ùn furnisce micca l\'infurmazioni cumbre di u mercatu. Per piacè aduprà una altra moneta, o pruvate più tardi.</string>
+    <string name="error__too_big_fiat_amount">Scusate, ma u mercatu ùn hè micca chì tantu maiò. Per piacè inserisci un valore inferiore.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Pay</string>

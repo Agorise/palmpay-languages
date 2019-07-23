@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Ku dalbo khalad buug</string>
     <string name="content_error_market">Ma jiraan wax amar ah oo ku jira DEX kaasoo noo ogolaanaya inaanu fulino isdhaafsiga ilaa %1$s hadda. \n \nFadlan waxaad tagtaa shaashadda goobaha oo aad doorato hanti kale oo ka duwan.</string>
+    <string name="title__exchange_rate_error">Qalabka lacagta sarrifka</string>
+    <string name="msg__exchange_rate_error">Waan ka xunnahay, laakiin shabakadu ma bixinayso macluumaadka saxda ah ee saxda ah waqtigan. Fadlan isticmaal kharash kale, ama mar dambe isku day mar dambe.</string>
+    <string name="error__too_big_fiat_amount">Waan ka xunnahay, laakiin suuqa maaha sidaas oo kale. Fadlan gali qiime yar.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Fadlan Lacag</string>

@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Redakto librin gabim</string>
     <string name="content_error_market">Nuk ka urdhra në DEX që do të na lejojë të kryejmë shkëmbimin në %1$s për momentin. \n \n Ju lutemi shkoni në ekranin e cilësimeve dhe zgjidhni një pasuri tjetër të prodhimit.</string>
+    <string name="title__exchange_rate_error">Gabimi i kursit të këmbimit</string>
+    <string name="msg__exchange_rate_error">Na vjen keq, por rrjeti nuk po siguron informacionin e duhur tregtar për momentin. Ju lutemi përdorni një monedhë tjetër, ose provoni përsëri më vonë.</string>
+    <string name="error__too_big_fiat_amount">Na vjen keq, por tregu nuk është aq i madh akoma. Ju lutemi shkruani një vlerë më të vogël.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Ju lutemi Paguani</string>

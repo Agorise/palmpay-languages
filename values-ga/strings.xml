@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Earráid leabhar ordú</string>
     <string name="content_error_market">Níl aon ordú sa DEX a ligfeá linn an malartán a dhéanamh go %1$s faoi láthair. \n \n Téigh go dtí an scáileán socruithe agus roghnaigh sócmhainn aschuir éagsúla.</string>
+    <string name="title__exchange_rate_error">Earráid ráta malairte</string>
+    <string name="msg__exchange_rate_error">Tá brón orm, ach níl an t-eolas ceart trádála á sholáthar ag an líonra faoi láthair. Bain úsáid as bonn difriúil, nó déan iarracht eile níos déanaí.</string>
+    <string name="error__too_big_fiat_amount">Tá brón orm, ach níl an margadh chomh mór sin fós. Cuir isteach luach níos lú le do thoil.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Páigh le do thoil</string>

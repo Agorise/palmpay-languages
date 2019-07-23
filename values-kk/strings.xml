@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Тапсырыс кітабы қатесі</string>
     <string name="content_error_market">Қазіргі уақытта DEX-те алмасуды %1$s-ға дейін орындауға мүмкіндік беретін ешқандай тапсырыс жоқ. \n \nПараметрлер экранына өтіп, басқа шығыс активін таңдаңыз.</string>
+    <string name="title__exchange_rate_error">Валюта бағамының қатесі</string>
+    <string name="msg__exchange_rate_error">Өкінішке орай, желі қазіргі сәтте сау ақпаратты ұсынады. Басқа монетаны қолданыңыз немесе кейінірек қайталап көріңіз.</string>
+    <string name="error__too_big_fiat_amount">Кешіріңіз, бірақ нарық әлі де үлкен емес. Кіші мәнді енгізіңіз.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Төлеңіздер</string>

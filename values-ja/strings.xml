@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">注文書エラー</string>
     <string name="content_error_market">DEXには現時点で%1$sとの交換を行うことができる命令はありません。 設定画面で別の出力アセットを選択してください。</string>
+    <string name="title__exchange_rate_error">為替レートエラー</string>
+    <string name="msg__exchange_rate_error">申し訳ありませんが、現時点でネットワークは適切な取引情報を提供していません。別のコインを使用するか、後でもう一度試してください。</string>
+    <string name="error__too_big_fiat_amount">すみません、しかし市場はそれほど大きくありません。小さい値を入力してください。</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">支払ってください</string>

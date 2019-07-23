@@ -114,6 +114,9 @@
     <string name="nine">9</string>
     <string name="title_error_market">Cholakwika cha bukhu la Order</string>
     <string name="content_error_market">Palibe malamulo mu DEX omwe angatilole kuti tichite mphoto kwa %1$s panthawiyi. \n \nPamene pitani kuzipinda zowonetsera ndikusankhira zosiyana.</string>
+    <string name="title__exchange_rate_error">Kusintha kwa mlingo wachinyengo</string>
+    <string name="msg__exchange_rate_error">Pepani, koma intaneti sizikudziwitsa zamalonda nthawi yomweyo. Chonde gwiritsani ntchito ndalama zosiyana, kapena yesani kachiwiri.</string>
+    <string name="error__too_big_fiat_amount">Pepani, koma msika si waukulu panopa. Chonde lowetsani mtengo wochepa.</string>
 
     <!-- QR Code Activity -->
     <string name="txt_please_pay">Chonde Malipiro</string>
