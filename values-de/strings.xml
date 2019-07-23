@@ -49,7 +49,7 @@
     <string name="mismatch_pin">Nicht übereinstimmender PIN</string>
     <string name="please_enter_brainkey">Bitte geben Sie den Gedächtnisschlüssel ein</string>
     <string name="please_enter_correct_brainkey">Bitte geben Sie den richtigen Gedächtnisschlüssel ein, er sollte zwischen 12 und 16 Wörter haben.</string>
-    <string name="unable_to_load_brainkey">Der Gedächtnisschlüssel ​​konnte nicht geladen werden</string>
+    <string name="unable_to_load_brainkey">Der Gedächtnisschlüssel konnte nicht geladen werden</string>
     <string name="account_already_exist">Dieses Konto existiert bereits</string>
     <string name="importing_your_wallet">Importieren Sie Ihre Wallet…</string>
     <string name="account_candidates_title">Bitte wählen Sie ein Konto aus</string>
@@ -370,4 +370,4 @@
     <!-- Application -->
     <string name="msg__selected_coin_disabled">%1$s wurde vorerst aufgrund von Netzwerk- oder Liquiditätsproblemen deaktiviert</string>
 
-</resources>
+/resources>
