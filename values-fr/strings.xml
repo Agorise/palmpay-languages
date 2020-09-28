@@ -2,17 +2,17 @@
 <resources>
     <!-- License Activity -->
     <string name="license">Licence</string>
-    <string name="agree">Se mettre d\'accord</string>
-    <string name="disagree">Être en désaccord</string>
+    <string name="agree">Accepter</string>
+    <string name="disagree">Refuser</string>
 
     <!-- Database Load Activity -->
     <string name="title_loading_assets">Chargement des actifs…</string>
     <string name="title_loading_asset_type_data">Chargement des données de type d\'actif…</string>
     <string name="title_assets_ready">Base de données d\'actifs prête</string>
-    <string name="msg_loading_all_existing_assets">Effectuer une série de demandes afin d\'obtenir la liste complète de tous les actifs existants</string>
-    <string name="msg_loading_asset_type_data">Demander des informations supplémentaires sur les actifs</string>
+    <string name="msg_loading_all_existing_assets">Génération de la liste de tous les actifs existants</string>
+    <string name="msg_loading_asset_type_data">Chargement des informations supplémentaires sur les actifs</string>
     <string name="msg_loading_asset_in_database">Chargement des actifs %1$d dans la base de données</string>
-    <string name="msg_assets_loaded">Ensuite, veuillez configurer votre compte…</string>
+    <string name="msg_assets_loaded">Chargement Terminé, Veuillez configurer votre compte…</string>
     <string name="error_fetching_marketcap_data">Impossible de charger les données de marketcap</string>
 
     <!-- Create Account Activity -->
@@ -31,8 +31,8 @@
     <string name="error_missing_account">L\'application n\'a pas pu récupérer d\'informations sur le compte nouvellement créé</string>
     <string name="create_account_title">Créer un nouveau compte</string>
     <string name="create_account_message">Veuillez patienter pendant la création de votre compte</string>
-    <string name="error_faucet_explanation">Le serveur a renvoyé une erreur. Cela peut être dû à une limitation volontairement mise en place pour interdire les demandes fréquentes provenant de la même adresse IP en peu de temps. Attendez 5 minutes et réessayez ou basculez sur un autre réseau, par exemple, du wifi à la cellule.</string>
-    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Assurez-vous de sauvegarder votre cerveau avant de continuer. Cela vous permettra de récupérer votre compte au cas où quelque chose arrive à cet appareil.</string>
+    <string name="error_faucet_explanation">Le serveur a renvoyé une erreur. Cela peut être dû à une limitation volontairement mise en place pour interdire les demandes fréquentes provenant de la même adresse IP en peu de temps. Attendez 5 minutes et réessayez ou basculez sur un autre réseau, par exemple, du wifi au cellulaire.</string>
+    <string name="please_make_sure_you_backup_your_brainkey_before_proceeding">Assurez-vous de sauvegarder votre clé-maîtresse avant de continuer. Cela vous permettra de récupérer votre compte au cas où quelque chose arrive à cet appareil.</string>
 
     <!-- Existing Account Fragment -->
     <string name="how_import_account">Comment voudriez-vous importer votre compte existant?</string>
@@ -46,14 +46,14 @@
     <string name="txt_6_digits_pin_confirm">Confirmation du code PIN à plus de 6 chiffres</string>
     <string name="please_enter_6_digit_pin">Veuillez entrer le code PIN à 6 chiffres</string>
     <string name="please_enter_6_digit_pin_confirm">S\'il vous plaît entrer la confirmation de votre code PIN</string>
-    <string name="mismatch_pin">Épingle de correspondance</string>
-    <string name="please_enter_brainkey">S\'il vous plaît entrer cerveau</string>
-    <string name="please_enter_correct_brainkey">S\'il vous plaît entrer la bonne énigme, il devrait avoir entre 12 et 16 mots</string>
-    <string name="unable_to_load_brainkey">Impossible de charger la brainkey</string>
+    <string name="mismatch_pin">PIN Incorrect</string>
+    <string name="please_enter_brainkey">S\'il vous plaît entrer votre clé maîtresse (Brainkey)</string>
+    <string name="please_enter_correct_brainkey">S\'il vous plaît entrer la bonne clé maîtresse, il devrait y avoir entre 12 et 16 mots</string>
+    <string name="unable_to_load_brainkey">Impossible de charger la clé maîtresse brainkey</string>
     <string name="account_already_exist">Le compte existe déja</string>
     <string name="importing_your_wallet">Importer votre portefeuille…</string>
     <string name="account_candidates_title">Veuillez sélectionner un compte</string>
-    <string name="account_candidates_content">Les clés dérivées de cette clé mentale semblent être utilisées pour contrôler plusieurs comptes. Veuillez sélectionner le compte que vous souhaitez importer.</string>
+    <string name="account_candidates_content">Les clés dérivées de cette clé maîtresse semblent être utilisées pour contrôler plusieurs comptes. Veuillez sélectionner le compte que vous souhaitez importer.</string>
 
     <!-- Import Backup Activity -->
     <string name="import_bin_file">Importer un fichier .bin</string>
@@ -80,7 +80,7 @@
     <string name="title_select_input_assets">Sélectionnez les actifs à accepter.</string>
     <string name="explanation_account_setup">Vous devrez créer un compte BitShares pour pouvoir recevoir des paiements. Ou si vous en avez déjà un, vous pouvez l\'importer ici.</string>
     <string name="explanation_output_asset">Choisissez votre Smartcoin souhaité:</string>
-    <string name="next">Prochain</string>
+    <string name="next">Suivant</string>
     <string name="done">Terminé</string>
 
     <!-- Main Activity -->
@@ -127,7 +127,7 @@
     <string name="error_node_unreachable">Aucun noeud n\'a pu être atteint</string>
     <string name="invoice_subject">Facture PalmPay de %1$s</string>
     <string name="memo_warning">REMARQUE: le champ Mémo est requis pour que votre paiement corresponde correctement à la demande du commerçant.</string>
-    <string name="before_s">Avant: %1$s</string>
+    <string name="before_s">Précédent: %1$s</string>
     <string name="share">Partager</string>
     <string name="share_with">Partager avec</string>
     <string name="connecting">De liaison…</string>
@@ -191,15 +191,15 @@
     <string name="city">Ville</string>
     <string name="country">Pays</string>
     <string name="bugs_or_ideas">Bugs ou idées?</string>
-    <string name="bugs_or_ideas_contact_info">Télégramme: https://t.me/Agorise \nKeybase: https://keybase.io/team/Agorise</string>
-    <string name="accept">Acceptez</string>
+    <string name="bugs_or_ideas_contact_info">Telegram: https://t.me/Agorise \Riot: https://riot.im/app/#/group/+agorise:matrix.org</string>
+    <string name="accept">Accepter</string>
     <string name="select">Sélectionner</string>
     <string name="are_you_sure">Êtes-vous sûr?</string>
 
     <!-- Settings > Accounts > Security Lock -->
     <string name="title__security_lock">Verrou de sécurité</string>
     <string name="title__security_dialog">Choisissez un verrou de sécurité</string>
-    <string name="text__pin">ÉPINGLE</string>
+    <string name="text__pin">NIP</string>
     <string name="text__pattern">Modèle</string>
     <string name="text__none">Aucun</string>
     <string name="button__choose">Choisir</string>
@@ -212,7 +212,7 @@
     <string name="title__pins_dont_match">Les codes PIN ne correspondent pas</string>
     <string name="title__re_enter_your_pattern">Re-entrez votre modèle</string>
     <string name="msg__enter_your_pattern">Entrez votre modèle PalmPay pour continuer</string>
-    <string name="msg__set_a_pattern">Pour la sécurité, définir un modèle</string>
+    <string name="msg__set_a_pattern">Pour votre sécurité définissez un modèle</string>
     <string name="msg__release_finger">Relâchez le doigt lorsque vous avez terminé</string>
     <string name="button__clear">Clair</string>
     <string name="button__next">Suivant</string>
@@ -257,7 +257,7 @@
     <string name="hint_password_confirmation">Confirmation mot de passe</string>
     <string name="error_password_mandatory">Doit entrer un mot de passe</string>
     <string name="error_password_too_short">Le mot de passe est trop court</string>
-    <string name="error_password_confirmation_mismatch">Mot de passe et incompatibilité de confirmation</string>
+    <string name="error_password_confirmation_mismatch">Les Mots de passe ne correspondent pas</string>
 
     <!-- Settings > Tokens -->
     <string name="title__desired_smartcoin">Smartcoin souhaité</string>
@@ -291,13 +291,13 @@
     <string name="generating_bin_format">Génération du format bin</string>
 
     <!-- Transactions Activity -->
-    <string name="search">Chercher</string>
+    <string name="search">Rechercher</string>
     <string name="filter">Filtre</string>
-    <string name="export">Exportation</string>
+    <string name="export">Exporter</string>
     <string name="text__no_transactions">Aucune transaction</string>
     <string name="text__awaiting_payment">En attente de paiement…</string>
-    <string name="text__confirming">Confirmant…</string>
-    <string name="text__complete">Achevée</string>
+    <string name="text__confirming">Confirmation en cours…</string>
+    <string name="text__complete">Réussi</string>
     <string name="text__failed">Échoué</string>
     <string name="pdf_generated_msg_s">PDF généré et enregistré: %1$s</string>
     <string name="pdf_generated_msg_error_s">Impossible de générer le pdf. Veuillez réessayer. Erreur: %1$s</string>
@@ -313,7 +313,7 @@
     <string name="received">Reçu</string>
     <string name="date_range">Plage de dates</string>
     <string name="txt_to">à</string>
-    <string name="cryptocurrency">Crypto-monnaie</string>
+    <string name="cryptocurrency">Cryptomonnaie</string>
     <string name="fiat_amount">Montant Fiat</string>
     <string name="between">Entre</string>
     <string name="and">et</string>
@@ -360,8 +360,8 @@
     <string name="please_enter_old_pin">Veuillez entrer votre ancien code PIN</string>
 
     <!-- ConnectedActivity -->
-    <string name="connected_activity_network_error_template">Erreur du nœud complet. Msg: %1$s</string>
-    <string name="error_payment_amount_title">Anomalie de montant reçue</string>
+    <string name="connected_activity_network_error_template">Erreur de connection au réseau. Msg: %1$s</string>
+    <string name="error_payment_amount_title">Anomalie du montant reçu</string>
     <string name="error_payment_amount_content">Il semble que nous ayons reçu moins que prévu. Le remboursement devra être traité manuellement.</string>
 
     <!-- Payment handler -->
